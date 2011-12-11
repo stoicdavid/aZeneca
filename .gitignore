@@ -1,0 +1,16 @@
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+.DS_Store
+xcuserdata/
+project.xcworkspace/
+VersionX-revision.h
+build/
+*.[oa]
+*.pdf
+*.PDF
+*.mp4
