@@ -60,13 +60,14 @@
 		AA30912314948FCB008C4C86 /* logoVannair.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30911114948FCB008C4C86 /* logoVannair.png */; };
 		AAF0BE9F14949B3400CB887D /* ResourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */; };
 		AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BE9E14949B3400CB887D /* ResourceViewController.m */; };
-		AAF0BF1A1494A73E00CB887D /* Ayuda Visual Brilinta.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BEAC1494A73D00CB887D /* Ayuda Visual Brilinta.pdf */; };
-		AAF0BF1B1494A73E00CB887D /* Estudio Plato.PDF in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BEAE1494A73D00CB887D /* Estudio Plato.PDF */; };
-		AAF0BF1E1494A73E00CB887D /* OE tarjeton ATORVASTATINA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BEB41494A73D00CB887D /* OE tarjeton ATORVASTATINA.pdf */; };
-		AAF0BF1F1494A73E00CB887D /* OE tarjetones COMBINACION.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BEB51494A73D00CB887D /* OE tarjetones COMBINACION.pdf */; };
 		AAF0BF601494AC2400CB887D /* PDFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BF5F1494AC2400CB887D /* PDFTableViewController.m */; };
-		AAF0BF9614953B8100CB887D /* Flat AZ Mexico_02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BF9414953B8100CB887D /* Flat AZ Mexico_02.mp4 */; };
-		AAF0BF9714953B8100CB887D /* Flat AZ Mexico_H264.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BF9514953B8100CB887D /* Flat AZ Mexico_H264.mp4 */; };
+		AAF0BF9814954D7800CB887D /* AVBrilinta.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BEAC1494A73D00CB887D /* AVBrilinta.pdf */; };
+		AAF0BF9914954D8100CB887D /* Estudio Plato.PDF in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BEAE1494A73D00CB887D /* Estudio Plato.PDF */; };
+		AAF0BF9A14954D8700CB887D /* FlatAZMexico_02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BF9414953B8100CB887D /* FlatAZMexico_02.mp4 */; };
+		AAF0BF9B14954D8F00CB887D /* FlatAZMexico_H264.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BF9514953B8100CB887D /* FlatAZMexico_H264.mp4 */; };
+		AAF0BF9D1495606700CB887D /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF0BF9C1495606700CB887D /* QuickLook.framework */; };
+		AAF0BFA4149561B600CB887D /* HelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BFA2149561B500CB887D /* HelperViewController.m */; };
+		AAF0BFA5149561B600CB887D /* HelperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BFA3149561B500CB887D /* HelperViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,14 +131,18 @@
 		AAF0BE9C14949B3400CB887D /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
 		AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourceViewController.xib; sourceTree = "<group>"; };
 		AAF0BE9E14949B3400CB887D /* ResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceViewController.m; sourceTree = "<group>"; };
-		AAF0BEAC1494A73D00CB887D /* Ayuda Visual Brilinta.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ayuda Visual Brilinta.pdf"; sourceTree = "<group>"; };
+		AAF0BEAC1494A73D00CB887D /* AVBrilinta.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVBrilinta.pdf; sourceTree = "<group>"; };
 		AAF0BEAE1494A73D00CB887D /* Estudio Plato.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Estudio Plato.PDF"; sourceTree = "<group>"; };
 		AAF0BEB41494A73D00CB887D /* OE tarjeton ATORVASTATINA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "OE tarjeton ATORVASTATINA.pdf"; sourceTree = "<group>"; };
 		AAF0BEB51494A73D00CB887D /* OE tarjetones COMBINACION.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "OE tarjetones COMBINACION.pdf"; sourceTree = "<group>"; };
 		AAF0BF5E1494AC2400CB887D /* PDFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTableViewController.h; sourceTree = "<group>"; };
 		AAF0BF5F1494AC2400CB887D /* PDFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFTableViewController.m; sourceTree = "<group>"; };
-		AAF0BF9414953B8100CB887D /* Flat AZ Mexico_02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flat AZ Mexico_02.mp4"; sourceTree = "<group>"; };
-		AAF0BF9514953B8100CB887D /* Flat AZ Mexico_H264.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flat AZ Mexico_H264.mp4"; sourceTree = "<group>"; };
+		AAF0BF9414953B8100CB887D /* FlatAZMexico_02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlatAZMexico_02.mp4; sourceTree = "<group>"; };
+		AAF0BF9514953B8100CB887D /* FlatAZMexico_H264.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlatAZMexico_H264.mp4; sourceTree = "<group>"; };
+		AAF0BF9C1495606700CB887D /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		AAF0BFA1149561B500CB887D /* HelperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperViewController.h; sourceTree = "<group>"; };
+		AAF0BFA2149561B500CB887D /* HelperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperViewController.m; sourceTree = "<group>"; };
+		AAF0BFA3149561B500CB887D /* HelperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelperViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF0BF9D1495606700CB887D /* QuickLook.framework in Frameworks */,
 				AA3090B214948BC7008C4C86 /* UIKit.framework in Frameworks */,
 				AA3090B414948BC7008C4C86 /* Foundation.framework in Frameworks */,
 				AA3090B614948BC7008C4C86 /* CoreGraphics.framework in Frameworks */,
@@ -174,6 +180,7 @@
 		AA3090B014948BC7008C4C86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAF0BF9C1495606700CB887D /* QuickLook.framework */,
 				AA3090B114948BC7008C4C86 /* UIKit.framework */,
 				AA3090B314948BC7008C4C86 /* Foundation.framework */,
 				AA3090B514948BC7008C4C86 /* CoreGraphics.framework */,
@@ -184,7 +191,6 @@
 		AA3090B714948BC7008C4C86 /* VisualAid */ = {
 			isa = PBXGroup;
 			children = (
-				AAF0BF5D1494AAB100CB887D /* TableView */,
 				AA3090CE14948EA5008C4C86 /* Assets */,
 				AA3090C014948BC7008C4C86 /* AppDelegate.h */,
 				AA3090C114948BC7008C4C86 /* AppDelegate.m */,
@@ -197,7 +203,11 @@
 				AA038D1F149495CC00667A09 /* ListViewController.h */,
 				AA038D20149495CC00667A09 /* ListViewController.m */,
 				AA038D21149495CC00667A09 /* ListViewController.xib */,
+				AAF0BF5D1494AAB100CB887D /* TableView */,
 				AA3090B814948BC7008C4C86 /* Supporting Files */,
+				AAF0BFA1149561B500CB887D /* HelperViewController.h */,
+				AAF0BFA2149561B500CB887D /* HelperViewController.m */,
+				AAF0BFA3149561B500CB887D /* HelperViewController.xib */,
 			);
 			path = VisualAid;
 			sourceTree = "<group>";
@@ -298,25 +308,27 @@
 		AAF0BEAA1494A73D00CB887D /* 1.Brilinta */ = {
 			isa = PBXGroup;
 			children = (
-				AAF0BEAB1494A73D00CB887D /* Ayuda Visual */,
-				AAF0BEAD1494A73D00CB887D /* Recursos Adicionales */,
+				AAF0BEAB1494A73D00CB887D /* AyudaVisual */,
+				AAF0BEAD1494A73D00CB887D /* RecursosAdicionales */,
 			);
 			path = 1.Brilinta;
 			sourceTree = "<group>";
 		};
-		AAF0BEAB1494A73D00CB887D /* Ayuda Visual */ = {
+		AAF0BEAB1494A73D00CB887D /* AyudaVisual */ = {
 			isa = PBXGroup;
 			children = (
-				AAF0BEAC1494A73D00CB887D /* Ayuda Visual Brilinta.pdf */,
+				AAF0BEAC1494A73D00CB887D /* AVBrilinta.pdf */,
 			);
+			name = AyudaVisual;
 			path = "Ayuda Visual";
 			sourceTree = "<group>";
 		};
-		AAF0BEAD1494A73D00CB887D /* Recursos Adicionales */ = {
+		AAF0BEAD1494A73D00CB887D /* RecursosAdicionales */ = {
 			isa = PBXGroup;
 			children = (
 				AAF0BEAE1494A73D00CB887D /* Estudio Plato.PDF */,
 			);
+			name = RecursosAdicionales;
 			path = "Recursos Adicionales";
 			sourceTree = "<group>";
 		};
@@ -324,17 +336,18 @@
 			isa = PBXGroup;
 			children = (
 				AAF0BF9314953B8100CB887D /* Videos */,
-				AAF0BEB31494A73D00CB887D /* Ayuda Visual */,
+				AAF0BEB31494A73D00CB887D /* AyudaVisual */,
 			);
 			path = 2.Crestor;
 			sourceTree = "<group>";
 		};
-		AAF0BEB31494A73D00CB887D /* Ayuda Visual */ = {
+		AAF0BEB31494A73D00CB887D /* AyudaVisual */ = {
 			isa = PBXGroup;
 			children = (
 				AAF0BEB41494A73D00CB887D /* OE tarjeton ATORVASTATINA.pdf */,
 				AAF0BEB51494A73D00CB887D /* OE tarjetones COMBINACION.pdf */,
 			);
+			name = AyudaVisual;
 			path = "Ayuda Visual";
 			sourceTree = "<group>";
 		};
@@ -350,8 +363,8 @@
 		AAF0BF9314953B8100CB887D /* Videos */ = {
 			isa = PBXGroup;
 			children = (
-				AAF0BF9414953B8100CB887D /* Flat AZ Mexico_02.mp4 */,
-				AAF0BF9514953B8100CB887D /* Flat AZ Mexico_H264.mp4 */,
+				AAF0BF9414953B8100CB887D /* FlatAZMexico_02.mp4 */,
+				AAF0BF9514953B8100CB887D /* FlatAZMexico_H264.mp4 */,
 			);
 			path = Videos;
 			sourceTree = "<group>";
@@ -407,6 +420,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF0BF9B14954D8F00CB887D /* FlatAZMexico_H264.mp4 in Resources */,
+				AAF0BF9A14954D8700CB887D /* FlatAZMexico_02.mp4 in Resources */,
+				AAF0BF9914954D8100CB887D /* Estudio Plato.PDF in Resources */,
+				AAF0BF9814954D7800CB887D /* AVBrilinta.pdf in Resources */,
 				AA3090BC14948BC7008C4C86 /* InfoPlist.strings in Resources */,
 				AA3090C814948BC7008C4C86 /* ViewController.xib in Resources */,
 				AA3090D314948F48008C4C86 /* plecaFooter.png in Resources */,
@@ -452,12 +469,7 @@
 				AA30912314948FCB008C4C86 /* logoVannair.png in Resources */,
 				AA038D23149495CC00667A09 /* ListViewController.xib in Resources */,
 				AAF0BE9F14949B3400CB887D /* ResourceViewController.xib in Resources */,
-				AAF0BF1A1494A73E00CB887D /* Ayuda Visual Brilinta.pdf in Resources */,
-				AAF0BF1B1494A73E00CB887D /* Estudio Plato.PDF in Resources */,
-				AAF0BF1E1494A73E00CB887D /* OE tarjeton ATORVASTATINA.pdf in Resources */,
-				AAF0BF1F1494A73E00CB887D /* OE tarjetones COMBINACION.pdf in Resources */,
-				AAF0BF9614953B8100CB887D /* Flat AZ Mexico_02.mp4 in Resources */,
-				AAF0BF9714953B8100CB887D /* Flat AZ Mexico_H264.mp4 in Resources */,
+				AAF0BFA5149561B600CB887D /* HelperViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +486,7 @@
 				AA038D22149495CC00667A09 /* ListViewController.m in Sources */,
 				AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */,
 				AAF0BF601494AC2400CB887D /* PDFTableViewController.m in Sources */,
+				AAF0BFA4149561B600CB887D /* HelperViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

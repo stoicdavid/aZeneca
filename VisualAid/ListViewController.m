@@ -40,8 +40,10 @@
     // Do any additional setup after loading the view from its nib.
 
        PDFTableViewController *primer = [[PDFTableViewController alloc] initWithStyle:UITableViewStylePlain];
+        primer.view.frame = CGRectMake(300, 250, 300, 200);
+    
        [self.view addSubview:primer.view];
-        
+   
         
 
     

@@ -8,18 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PDFTableViewController : UITableViewController<UIDocumentInteractionControllerDelegate>
+
+@interface PDFTableViewController : UITableViewController
 {
 NSString *nombreDelRecurso;
 
-
-UIDocumentInteractionController *docInteractionController;
 }
 
-@property (nonatomic, retain) UIDocumentInteractionController *docInteractionController;
-
-
 @property (nonatomic, retain) NSString *nombreDelRecurso;
-- (void)setupDocumentControllerWithURL:(NSURL *)url;
+
 
 @end

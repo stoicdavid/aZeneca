@@ -7,9 +7,9 @@
 //
 
 #import "PDFTableViewController.h"
-
+#import "HelperViewController.h"
 @implementation PDFTableViewController
-@synthesize nombreDelRecurso, docInteractionController;
+@synthesize nombreDelRecurso;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -78,14 +78,14 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
     return 1;
 }
@@ -147,37 +147,37 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSURL *fileURL;
+//    NSURL *fileURL;
+//    NSString *archivo = @"AVBrillinta";
+//    
+//    fileURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:archivo ofType:@"pdf"]];
+//    NSLog(@"Pase");
     
-    fileURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Ayuda Visual Brillinta" ofType:@"pdf"]];
+//    NSURL *fileURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/AVBrilinta.pdf", [[NSBundle mainBundle] resourcePath]]];
     
-    [self setupDocumentControllerWithURL:fileURL];
-    [self.docInteractionController presentPreviewAnimated:YES];
+    //[self setupDocumentControllerWithURL:fileURL];
 
-}
 
-- (void)setupDocumentControllerWithURL:(NSURL *)url
-{
-    if (self.docInteractionController == nil)
-    {
-        self.docInteractionController = [UIDocumentInteractionController interactionControllerWithURL:url];
-        self.docInteractionController.delegate = self;
-    }
-    else
-    {
-        self.docInteractionController.URL = url;
-    }
-}
 
-- (UIViewController *)documentInteractionControllerViewControllerForPreview:(UIDocumentInteractionController *)interactionController
-{
-    return self;
     
+    QLPreviewController *controlador1 = [[QLPreviewController alloc] init];    
+    HelperViewController *dummy = [[HelperViewController alloc] init];
+    
+    
+    dummy.documents=@"AVBrilinta.pdf";
+    controlador1.dataSource =dummy;
+    controlador1.delegate=dummy;
+    controlador1.currentPreviewItemIndex =0;
+    
+    [self presentModalViewController:controlador1 animated:YES];
+    
+    
+    
+    
+    [controlador1 release]; 
+
 }
 
-- (void) documentInteractionController: (UIDocumentInteractionController *) controller{
-    UIInterfaceOrientation orienta = [[UIApplication sharedApplication] statusBarOrientation];
-    [self shouldAutorotateToInterfaceOrientation:orienta];
-}
+
 
 @end
