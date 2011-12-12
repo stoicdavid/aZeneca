@@ -9,7 +9,7 @@
 #import "ResourceViewController.h"
 
 @implementation ResourceViewController
-@synthesize dismissButton,resourceButton,logo;
+@synthesize dismissButton,resourceButton,logo,productType;
 
 -(IBAction) dismiss{
     [self dismissModalViewControllerAnimated:YES];
@@ -18,7 +18,7 @@
 -(IBAction) listResources:(id) sender {
     ListViewController *list = [[ListViewController alloc] initWithNibName:@"ListViewController" bundle:nil];
     list.modalTransitionStyle=UIModalTransitionStyleCrossDissolve;
-
+    list.productType = self.productType;
     [list setResourceIconForButtonTag:[sender tag]];
 	[self presentModalViewController:list animated:YES];
 }

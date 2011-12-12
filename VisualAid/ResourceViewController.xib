@@ -73,7 +73,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="539833619"/>
 						<bool key="IBUIOpaque">NO</bool>
-						<int key="IBUITag">3</int>
+						<int key="IBUITag">1</int>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -136,7 +136,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="535101643"/>
 						<bool key="IBUIOpaque">NO</bool>
-						<int key="IBUITag">1</int>
+						<int key="IBUITag">3</int>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -280,11 +280,11 @@
 						<reference key="object" ref="766721923"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="535101643"/>
-							<reference ref="564877038"/>
 							<reference ref="665986487"/>
 							<reference ref="702212842"/>
 							<reference ref="539833619"/>
 							<reference ref="387631101"/>
+							<reference ref="564877038"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -337,7 +337,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">18</int>
+			<int key="maxID">21</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -385,7 +385,7 @@
 			<string key="botonMaterialesExtra.png">{230, 330}</string>
 			<string key="botonRegresar.png">{70, 60}</string>
 			<string key="botonVideos.png">{230, 330}</string>
-			<string key="logoBrillinta.png">{200, 150}</string>
+			<string key="logoBrillinta.png">{16, 16}</string>
 			<string key="plecaFooter.png">{1024, 100}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">933</string>

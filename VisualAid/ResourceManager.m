@@ -25,12 +25,12 @@
         resources = [[NSMutableArray alloc] init];
 
         //Brilinta
-        aids = [[NSArray alloc] initWithObjects:@"AVBrilinta.pdf", nil];
-        aidsK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil];        
-        extras = [[NSArray alloc] initWithObjects:@"RAEstudioPlato.PDF", nil];
-        extrasK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil] ;        
-        videos = [[NSArray alloc] initWithObjects:@"TicagrelorMecanismodeAccion.mp4",@"VideoCorazon.mp4", nil];
-        videosK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1],[NSNumber numberWithInt:1], nil] ;        
+        aids = [[NSArray alloc] initWithObjects:@"AVBrilinta", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Apoyo Visual Brilinta", nil];        
+        extras = [[NSArray alloc] initWithObjects:@"RAEstudioPlato", nil];
+        extrasK = [[NSArray alloc] initWithObjects:@"Recurso Adicional Estudio Plato", nil] ;        
+        videos = [[NSArray alloc] initWithObjects:@"TicagrelorMecanismodeAccion",@"VideoCorazon", nil];
+        videosK = [[NSArray alloc] initWithObjects:@"Ticagrelor Mecanismo de Acción",@"Video Corazón", nil] ;        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         extrasD = [[NSDictionary alloc] initWithObjects:extras forKeys:extrasK];
         videosD = [[NSDictionary alloc] initWithObjects:videos forKeys:videosK];
@@ -39,31 +39,29 @@
         [resources addObject:aidsD];
         [resources addObject:extrasD];
         [resources addObject:videosD];
-          NSLog(@"%@",videosD);
+
         [resources addObject:@"111"];
         [products setObject:resources forKey:[NSNumber numberWithInt:1]];
-        NSLog(@"RECURSOS%@",resources.description);
-        NSLog(@"PRODUCTOS%@",products.description);
+        NSLog([[resources objectAtIndex:1] description]);
         [self eraseResources];
 
         
         //Crestor
-        aids = [[NSArray alloc] initWithObjects:@"AVOEtarjetonATORVASTATINA.pdf",@"AVOEtarjetonesCOMBINACION.pdf", nil];
-        aidsK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1],[NSNumber numberWithInt:2], nil];        
-        videos = [[NSArray alloc] initWithObjects:@"FlatAZMexico_H264.mp4", nil];
-        videosK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil] ;        
+        aids = [[NSArray alloc] initWithObjects:@"AVOEtarjetonATORVASTATINA",@"AVOEtarjetonesCOMBINACION", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Apoyo Visual OE tarjeton ATORVASTATINA",@"Apoyo Visual tarjetones COMBINACION", nil];        
+        videos = [[NSArray alloc] initWithObjects:@"FlatAZMexico_H264", nil];
+        videosK = [[NSArray alloc] initWithObjects:@"Flat AZ Mexico_H264", nil] ;        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         videosD = [[NSDictionary alloc] initWithObjects:videos forKeys:videosK];
         
         [resources addObject:@"Crestor"];
         [resources addObject:aidsD];
-        NSLog(@"%@",aidsD);
+
         [resources addObject:videosD];
-                NSLog(@"%@",videosD);
+
         [resources addObject:@"101"];   
         [products setObject:resources forKey:[NSNumber numberWithInt:2]];
-        NSLog(@"RECURSOS%@",resources.description);
-        NSLog(@"PRODUCTOS%@",products.description);
+
         [self eraseResources];
         
         //Onglyza
@@ -80,8 +78,7 @@
         [resources addObject:extrasD];
         [resources addObject:@"110"];
         [products setObject:resources forKey:[NSNumber numberWithInt:3]];
-        NSLog(@"RECURSOS%@",resources.description);
-        NSLog(@"PRODUCTOS%@",products.description);       
+       
         [self eraseResources];
         
 
@@ -186,8 +183,9 @@
 - (BOOL) productHasVisualAids:(int)product{
     NSArray *temp = [products objectForKey:[NSNumber numberWithInt:product]];
     NSString *vector = [temp objectAtIndex:temp.count-1];
-    NSString *value = [vector substringToIndex:0];
+    NSString *value = [vector substringWithRange:NSMakeRange(0, 1)];
     if ([value isEqualToString:@"1"]){
+
         return YES;
     }else{
         return NO;
@@ -196,8 +194,9 @@
 - (BOOL) productHasExtras:(int)product{
     NSArray *temp = [products objectForKey:[NSNumber numberWithInt:product]];
     NSString *vector = [temp objectAtIndex:temp.count-1];
-    NSString *value = [vector substringToIndex:1];
+    NSString *value = [vector substringWithRange:NSMakeRange(1, 1)];
     if ([value isEqualToString:@"1"]){
+
         return YES;
     }else{
         return NO;
@@ -207,8 +206,9 @@
 - (BOOL) productHasVideos:(int)product{
     NSArray *temp = [products objectForKey:[NSNumber numberWithInt:product]];
     NSString *vector = [temp objectAtIndex:temp.count-1];
-    NSString *value = [vector substringToIndex:2];
+    NSString *value = [vector substringWithRange:NSMakeRange(2, 1)];
     if ([value isEqualToString:@"1"]){
+
         return YES;
     }else{
         return NO;

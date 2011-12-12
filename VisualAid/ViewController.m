@@ -18,14 +18,31 @@
     ResourceViewController *resource = [[ResourceViewController alloc] initWithNibName:@"ResourceViewController" bundle:nil];
     resource.modalTransitionStyle=UIModalTransitionStyleCoverVertical;
     
-    ResourceManager *product = [[ResourceManager alloc]init];
-    NSLog(@"%d",sender.tag);
-    NSLog(@"%@",[product nameOfProduct:sender.tag]);
+    ResourceManager *manager = [[ResourceManager alloc]init];
+
     UIImageView *logo = (UIImageView *)[resource.view viewWithTag:99];
-    NSString *imageName = [NSString stringWithFormat:@"logo%@.png", [product nameOfProduct:sender.tag]];
+    NSString *imageName = [NSString stringWithFormat:@"logo%@.png", [manager nameOfProduct:sender.tag]];
     [logo setImage:[UIImage imageNamed:imageName]];
     resource.logo = logo;
+    resource.productType=sender.tag;
+    
+    NSLog(@"va");
+    if (![manager productHasVisualAids:sender.tag]){
+        UIButton *res = (UIButton *)[resource.view viewWithTag:1];
+        res.alpha = 0.0;
+    }
+         NSLog(@"xx");
+    if (![manager productHasExtras:sender.tag]){
+        UIButton *res = (UIButton *)[resource.view viewWithTag:2];
+        res.alpha = 0.0;
+    }
+        NSLog(@"vid");
+    if (![manager productHasVideos:sender.tag]){
+        UIButton *res = (UIButton *)[resource.view viewWithTag:3];
+        res.alpha = 0.0;
+    }
 
+    
 	[self presentModalViewController:resource animated:YES];
 }
 

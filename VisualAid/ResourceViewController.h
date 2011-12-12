@@ -15,9 +15,10 @@
     UIButton *dismissButton;
     UIButton *resourceButton;
     UIImageView *logo;
-    
+    int productType;
 }
 
+@property (nonatomic) int productType;
 @property (nonatomic, retain) IBOutlet UIImageView *logo;
 @property (nonatomic, retain) UIButton *dismissButton;
 @property (nonatomic, retain) UIButton *resourceButton;

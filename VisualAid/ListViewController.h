@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResourceManager.h"
 
 #define pdf     @"pdf"
 #define video   @"mp4"
@@ -17,8 +18,10 @@
     UITableView *table;
     NSMutableDictionary *resourceList;
     NSString *fileType;
+    int productType;
 }
 
+@property (nonatomic) int productType;
 @property (nonatomic, retain) UIButton *dismissButton;
 @property (nonatomic, retain) IBOutlet UITableView *table;
 @property (nonatomic, retain) NSMutableDictionary *resourceList;
