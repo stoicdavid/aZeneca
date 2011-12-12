@@ -87,6 +87,8 @@
 		AA7AE88F1496005200134A89 /* TarjetonPrecios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE88C1496005200134A89 /* TarjetonPrecios.pdf */; };
 		AA7AE8901496005200134A89 /* TarjetonPresentacionesVannair.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE88D1496005200134A89 /* TarjetonPresentacionesVannair.pdf */; };
 		AA7AE8921496062C00134A89 /* RACampanaTV.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8911496062C00134A89 /* RACampanaTV.pdf */; };
+		AA87DFCF1496C52C0027BAD3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA87DFCE1496C52C0027BAD3 /* Icon.png */; };
+		AA87DFD11496C5D50027BAD3 /* CampanaTV.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA87DFD01496C5D50027BAD3 /* CampanaTV.pdf */; };
 		AAA3EEA814956A3A00DFFE8A /* AVBrilinta.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */; };
 		AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */; };
 		AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */; };
@@ -109,7 +111,7 @@
 		AA038D1F149495CC00667A09 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		AA038D20149495CC00667A09 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		AA038D21149495CC00667A09 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
-		AA3090AD14948BC7008C4C86 /* VisualAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3090AD14948BC7008C4C86 /* AVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3090B114948BC7008C4C86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA3090B314948BC7008C4C86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA3090B514948BC7008C4C86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -190,6 +192,8 @@
 		AA7AE88C1496005200134A89 /* TarjetonPrecios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonPrecios.pdf; sourceTree = "<group>"; };
 		AA7AE88D1496005200134A89 /* TarjetonPresentacionesVannair.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonPresentacionesVannair.pdf; sourceTree = "<group>"; };
 		AA7AE8911496062C00134A89 /* RACampanaTV.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RACampanaTV.pdf; sourceTree = "<group>"; };
+		AA87DFCE1496C52C0027BAD3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		AA87DFD01496C5D50027BAD3 /* CampanaTV.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CampanaTV.pdf; sourceTree = "<group>"; };
 		AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVBrilinta.pdf; sourceTree = "<group>"; };
 		AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOEtarjetonATORVASTATINA.pdf; sourceTree = "<group>"; };
 		AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOEtarjetonesCOMBINACION.pdf; sourceTree = "<group>"; };
@@ -246,7 +250,7 @@
 		AA3090AE14948BC7008C4C86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA3090AD14948BC7008C4C86 /* VisualAid.app */,
+				AA3090AD14948BC7008C4C86 /* AVI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,6 +342,7 @@
 		AA3090D014948F16008C4C86 /* Logos */ = {
 			isa = PBXGroup;
 			children = (
+				AA87DFCE1496C52C0027BAD3 /* Icon.png */,
 				AA30910014948FCB008C4C86 /* logoArimidex.png */,
 				AA30910114948FCB008C4C86 /* logoAtacand.png */,
 				AA30910214948FCB008C4C86 /* logoBrilinta.png */,
@@ -385,6 +390,7 @@
 				AA7AE8771495FF0000134A89 /* TarjetonAtlasiPad(Respiratorio).pdf */,
 				AA7AE8781495FF0000134A89 /* TarjetonPrecios(VannairSimbicort).pdf */,
 				AA7AE8791495FF0000134A89 /* TarjetonpresentacionesSymbicort.pdf */,
+				AA87DFD01496C5D50027BAD3 /* CampanaTV.pdf */,
 				AA7AE88B1496005200134A89 /* TarjetonAtlas.pdf */,
 				AA7AE88C1496005200134A89 /* TarjetonPrecios.pdf */,
 				AA7AE8911496062C00134A89 /* RACampanaTV.pdf */,
@@ -430,7 +436,7 @@
 			);
 			name = VisualAid;
 			productName = VisualAid;
-			productReference = AA3090AD14948BC7008C4C86 /* VisualAid.app */;
+			productReference = AA3090AD14948BC7008C4C86 /* AVI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -544,6 +550,8 @@
 				AA7AE88F1496005200134A89 /* TarjetonPrecios.pdf in Resources */,
 				AA7AE8901496005200134A89 /* TarjetonPresentacionesVannair.pdf in Resources */,
 				AA7AE8921496062C00134A89 /* RACampanaTV.pdf in Resources */,
+				AA87DFCF1496C52C0027BAD3 /* Icon.png in Resources */,
+				AA87DFD11496C5D50027BAD3 /* CampanaTV.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,7 +646,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VisualAid/VisualAid-Prefix.pch";
 				INFOPLIST_FILE = "VisualAid/VisualAid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AVI;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -649,7 +657,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VisualAid/VisualAid-Prefix.pch";
 				INFOPLIST_FILE = "VisualAid/VisualAid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AVI;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
