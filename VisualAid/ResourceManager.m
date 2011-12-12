@@ -42,7 +42,7 @@
 
         [resources addObject:@"111"];
         [products setObject:resources forKey:[NSNumber numberWithInt:1]];
-        NSLog([[resources objectAtIndex:1] description]);
+
         [self eraseResources];
 
         
@@ -56,7 +56,7 @@
         
         [resources addObject:@"Crestor"];
         [resources addObject:aidsD];
-
+        [resources addObject:@""];
         [resources addObject:videosD];
 
         [resources addObject:@"101"];   

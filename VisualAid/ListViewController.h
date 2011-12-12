@@ -19,10 +19,12 @@
     NSMutableDictionary *resourceList;
     NSString *fileType;
     int productType;
+      UIImageView *logo;
 }
 
 @property (nonatomic) int productType;
 @property (nonatomic, retain) UIButton *dismissButton;
+@property (nonatomic, retain) IBOutlet UIImageView *logo;
 @property (nonatomic, retain) IBOutlet UITableView *table;
 @property (nonatomic, retain) NSMutableDictionary *resourceList;
 @property (nonatomic, retain) NSString *fileType;
