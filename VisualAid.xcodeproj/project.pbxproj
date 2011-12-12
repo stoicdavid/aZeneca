@@ -61,6 +61,7 @@
 		AA30912214948FCB008C4C86 /* logoSymbicort.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30911014948FCB008C4C86 /* logoSymbicort.png */; };
 		AA30912314948FCB008C4C86 /* logoVannair.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30911114948FCB008C4C86 /* logoVannair.png */; };
 		AA7AE8531495E7ED00134A89 /* RAEstudioPlato.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8521495E7ED00134A89 /* RAEstudioPlato.pdf */; };
+		AA87DFDF1496C8880027BAD3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA87DFDE1496C8880027BAD3 /* Icon.png */; };
 		AAA3EEA814956A3A00DFFE8A /* AVBrilinta.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */; };
 		AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */; };
 		AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */; };
@@ -83,7 +84,7 @@
 		AA038D1F149495CC00667A09 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		AA038D20149495CC00667A09 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		AA038D21149495CC00667A09 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
-		AA3090AD14948BC7008C4C86 /* VisualAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3090AD14948BC7008C4C86 /* AVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3090B114948BC7008C4C86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA3090B314948BC7008C4C86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA3090B514948BC7008C4C86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,6 +139,7 @@
 		AA30911014948FCB008C4C86 /* logoSymbicort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoSymbicort.png; sourceTree = "<group>"; };
 		AA30911114948FCB008C4C86 /* logoVannair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoVannair.png; sourceTree = "<group>"; };
 		AA7AE8521495E7ED00134A89 /* RAEstudioPlato.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RAEstudioPlato.pdf; sourceTree = "<group>"; };
+		AA87DFDE1496C8880027BAD3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVBrilinta.pdf; sourceTree = "<group>"; };
 		AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOEtarjetonATORVASTATINA.pdf; sourceTree = "<group>"; };
 		AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOEtarjetonesCOMBINACION.pdf; sourceTree = "<group>"; };
@@ -194,7 +196,7 @@
 		AA3090AE14948BC7008C4C86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA3090AD14948BC7008C4C86 /* VisualAid.app */,
+				AA3090AD14948BC7008C4C86 /* AVI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -286,6 +288,7 @@
 		AA3090D014948F16008C4C86 /* Logos */ = {
 			isa = PBXGroup;
 			children = (
+				AA87DFDE1496C8880027BAD3 /* Icon.png */,
 				AA30910014948FCB008C4C86 /* logoArimidex.png */,
 				AA30910114948FCB008C4C86 /* logoAtacand.png */,
 				AA30910214948FCB008C4C86 /* logoBrilinta.png */,
@@ -352,7 +355,7 @@
 			);
 			name = VisualAid;
 			productName = VisualAid;
-			productReference = AA3090AD14948BC7008C4C86 /* VisualAid.app */;
+			productReference = AA3090AD14948BC7008C4C86 /* AVI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -440,6 +443,7 @@
 				AAA3EEE91495B98200DFFE8A /* FlatAZMexico_H264.mp4 in Resources */,
 				AAA3EEEB1495B98B00DFFE8A /* FlatAZMexico_02.mp4 in Resources */,
 				AA7AE8531495E7ED00134A89 /* RAEstudioPlato.pdf in Resources */,
+				AA87DFDF1496C8880027BAD3 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +538,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VisualAid/VisualAid-Prefix.pch";
 				INFOPLIST_FILE = "VisualAid/VisualAid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AVI;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -545,7 +549,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VisualAid/VisualAid-Prefix.pch";
 				INFOPLIST_FILE = "VisualAid/VisualAid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AVI;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
