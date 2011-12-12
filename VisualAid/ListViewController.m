@@ -8,9 +8,11 @@
 
 #import "ListViewController.h"
 #import "ResourceView.h"
+#import <MediaPlayer/MediaPlayer.h>
+#import "HelperViewController.h"
 
 @implementation ListViewController
-@synthesize dismissButton,table, resourceList;
+@synthesize dismissButton,table, resourceList, fileType;
 
 -(IBAction) dismiss{
     [self dismissModalViewControllerAnimated:YES];
@@ -22,7 +24,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.resourceList = [NSMutableDictionary dictionary];
-        [self.resourceList setObject:@"TicagrelorMecanismodeAccion" forKey:@"Ticagrelor Mecanismo de Acción"];
+        [self.resourceList setObject:@"TicagrelorMecanismodeAccion" 
+                              forKey:@"Ticagrelor Mecanismo de Acción"];
         [self.resourceList setObject:@"VideoCorazon" forKey:@"Video Corazón"];
     }
     return self;
@@ -55,20 +58,38 @@
 
 - (void) pushResourceViewControllerWithFile:(NSString*)file
 {
-    VideoViewController *video = [[VideoViewController alloc] initWithFrame:self.view.frame withFileToPlay:file];
-    [self presentModalViewController:video animated:YES];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] 
+                                         pathForResource:file ofType:fileType]];
+
+    if (fileType == pdf) {
+        QLPreviewController *controlador1 = [[QLPreviewController alloc] init];
+        HelperViewController *dummy = [[HelperViewController alloc] init];
+        
+        dummy.documents=file;
+        controlador1.dataSource =dummy;
+        controlador1.delegate=dummy;
+        controlador1.currentPreviewItemIndex =0;
+        
+        [self presentModalViewController:controlador1 animated:YES];
+        
+        [controlador1 release]; 
+    } else {
+        MPMoviePlayerViewController *movController = [[MPMoviePlayerViewController alloc] 
+                                                      initWithContentURL:url];
+        [self presentMoviePlayerViewControllerAnimated:movController];
+    }
 }
 
 - (void) setResourceIconForButtonTag:(int)tag
 {
     NSString *resource = Nil;
+    fileType = pdf;
     
     if (tag == 1) {
         resource = @"botonVideos.png";
-
+        fileType = video;
     } else if(tag == 2) {
         resource = @"botonMaterialesExtra.png";
-
     } else if(tag == 3) {
         resource = @"botonAyudaVisual.png";
     }

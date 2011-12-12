@@ -7,19 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VideoViewController.h"
+
+#define pdf     @"pdf"
+#define video   @"mp4"
 
 @interface ListViewController : UIViewController
 {
     UIButton *dismissButton;
     UITableView *table;
     NSMutableDictionary *resourceList;
+    NSString *fileType;
 }
 
 @property (nonatomic, retain) UIButton *dismissButton;
 @property (nonatomic, retain) IBOutlet UITableView *table;
 @property (nonatomic, retain) NSMutableDictionary *resourceList;
-
+@property (nonatomic, retain) NSString *fileType;
 
 -(IBAction) dismiss;
 

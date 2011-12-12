@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17FF58A4149581510056C21F /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FF58A3149581510056C21F /* VideoViewController.m */; };
+		17A854631495ABB300C0B901 /* TicagrelorMecanismodeAccion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 17A854611495ABB300C0B901 /* TicagrelorMecanismodeAccion.mp4 */; };
+		17A854641495ABB300C0B901 /* VideoCorazon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 17A854621495ABB300C0B901 /* VideoCorazon.mp4 */; };
 		17FF58A6149583E20056C21F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FF58A5149583E20056C21F /* MediaPlayer.framework */; };
 		17FF58AD149588DC0056C21F /* ResourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FF58AC149588DC0056C21F /* ResourceView.m */; };
 		AA038D22149495CC00667A09 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA038D20149495CC00667A09 /* ListViewController.m */; };
@@ -74,8 +75,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17FF58A2149581510056C21F /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
-		17FF58A3149581510056C21F /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		17A854611495ABB300C0B901 /* TicagrelorMecanismodeAccion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TicagrelorMecanismodeAccion.mp4; path = Recursos/1.Brilinta/Videos/TicagrelorMecanismodeAccion.mp4; sourceTree = "<group>"; };
+		17A854621495ABB300C0B901 /* VideoCorazon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VideoCorazon.mp4; path = Recursos/1.Brilinta/Videos/VideoCorazon.mp4; sourceTree = "<group>"; };
 		17FF58A5149583E20056C21F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		17FF58AB149588DC0056C21F /* ResourceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceView.h; sourceTree = "<group>"; };
 		17FF58AC149588DC0056C21F /* ResourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceView.m; sourceTree = "<group>"; };
@@ -167,15 +168,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17FF58A1149581390056C21F /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				17FF58A2149581510056C21F /* VideoViewController.h */,
-				17FF58A3149581510056C21F /* VideoViewController.m */,
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
 		17FF58A71495883B0056C21F /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,7 +210,6 @@
 			isa = PBXGroup;
 			children = (
 				17FF58A71495883B0056C21F /* Views */,
-				17FF58A1149581390056C21F /* Video */,
 				AA3090CE14948EA5008C4C86 /* Assets */,
 				AA3090C014948BC7008C4C86 /* AppDelegate.h */,
 				AA3090C114948BC7008C4C86 /* AppDelegate.m */,
@@ -362,6 +353,8 @@
 		AAA3EEA31495659600DFFE8A /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				17A854611495ABB300C0B901 /* TicagrelorMecanismodeAccion.mp4 */,
+				17A854621495ABB300C0B901 /* VideoCorazon.mp4 */,
 			);
 			name = Video;
 			sourceTree = "<group>";
@@ -485,6 +478,8 @@
 				AAA3EEAA14956A4500DFFE8A /* RAEstudioPlato.PDF in Resources */,
 				AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */,
 				AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */,
+				17A854631495ABB300C0B901 /* TicagrelorMecanismodeAccion.mp4 in Resources */,
+				17A854641495ABB300C0B901 /* VideoCorazon.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +497,6 @@
 				AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */,
 				AAF0BFA4149561B600CB887D /* HelperViewController.m in Sources */,
 				AAA3EEC9149588D100DFFE8A /* ResourceManager.m in Sources */,
-				17FF58A4149581510056C21F /* VideoViewController.m in Sources */,
 				17FF58AD149588DC0056C21F /* ResourceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

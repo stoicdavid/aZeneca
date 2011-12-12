@@ -27,6 +27,9 @@
         [[self layer] setShadowColor: [UIColor blackColor].CGColor];
         [[self layer] setShadowOpacity: 0.6];
         [[self layer] setCornerRadius: 5];
+        [self setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
+        self.contentEdgeInsets = UIEdgeInsetsMake(0, 20, 0, 0);
+
 
         [self setTitleColor:UIColorFromRGB(0x524D46) forState:UIControlStateNormal];
         
