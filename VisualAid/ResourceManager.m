@@ -65,10 +65,10 @@
         [self eraseResources];
         
         //Onglyza
-        aids = [[NSArray alloc] initWithObjects:@"AVOnglyza.pdf", nil];
-        aidsK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil];        
-        extras = [[NSArray alloc] initWithObjects:@"RAEstructuraPromocionalSeguridadEficacia.pdf",@"RAEstudioSeguridadEficacia.pdf", nil];
-        extrasK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1],[NSNumber numberWithInt:2], nil] ;        
+        aids = [[NSArray alloc] initWithObjects:@"AVOnglyza", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Apoyo Visual Onglyza", nil];        
+        extras = [[NSArray alloc] initWithObjects:@"RAEstructuraPromocionalSeguridadEficacia",@"RAEstudioSeguridadEficacia", nil];
+        extrasK = [[NSArray alloc] initWithObjects:@"Estructura Promocional Seguridad Eficacia", @"Estudio Seguridad Eficacia", nil] ;        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         extrasD = [[NSDictionary alloc] initWithObjects:extras forKeys:extrasK];
 
@@ -84,8 +84,8 @@
 
         //Atacand
         
-        aids = [[NSArray alloc] initWithObjects:@"AVTarjetonAtacand.pdf", nil];
-        aidsK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil];        
+        aids = [[NSArray alloc] initWithObjects:@"AVTarjetonAtacand", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Tarjeton Atacand", nil];        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
 
         
@@ -98,8 +98,8 @@
         [self eraseResources];
         
         //Nexium 2.5
-        aids = [[NSArray alloc] initWithObjects:@"AVNexium2_5.pdf", nil];
-        aidsK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil];        
+        aids = [[NSArray alloc] initWithObjects:@"AVNexium2_5", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Nexium Sachets 2.5", nil];        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         
         
@@ -114,12 +114,12 @@
         //Nexium Mups
         
         
-        aids = [[NSArray alloc] initWithObjects:@"AVNexiumMups.pdf", nil];
-        aidsK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil];        
-        extras = [[NSArray alloc] initWithObjects:@"RACampanaTV.jpg",@"RADipticoRIMA.pdf",@"RATarjetonAtlasparaiPad.pdf",@"RATarjetonNexiumMupsInstitucionales.pdf",@"RATripticoRIMA.pdf", nil];
-        extrasK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1],[NSNumber numberWithInt:2],[NSNumber numberWithInt:3],[NSNumber numberWithInt:4],[NSNumber numberWithInt:5], nil] ;        
+        aids = [[NSArray alloc] initWithObjects:@"AVNexiumMups", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Nexium Mups", nil];        
+        extras = [[NSArray alloc] initWithObjects:@"RACampanaTV",@"RADipticoRIMA",@"RATarjetonAtlasparaiPad",@"RATarjetonNexiumMupsInstitucionales",@"RATripticoRIMA", nil];
+        extrasK = [[NSArray alloc] initWithObjects:@"Campaña TV",@"Díptico RIMA",@"Tarjetón Atlas para iPad",@"Tarjetón Nexium Mups Institucionales",@"Tríptico RIMA", nil] ;        
         videos = [[NSArray alloc] initWithObjects:@"ComercialTVNexium.mp4", nil];
-        videosK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil] ;        
+        videosK = [[NSArray alloc] initWithObjects:@"Comercial TV Nexium", nil] ;        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         extrasD = [[NSDictionary alloc] initWithObjects:extras forKeys:extrasK];
         videosD = [[NSDictionary alloc] initWithObjects:videos forKeys:videosK];
@@ -135,20 +135,79 @@
         
         
         //Pulmicort
-        [products setObject:@"Pulmicort" forKey:[NSNumber numberWithInt:7]];
+        
+        aids = [[NSArray alloc] initWithObjects:@"TarjetonPresentacionesPulmicort", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Tarjetón de Presentaciones Pulmicort", nil];        
+
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+
+        
+        [resources addObject:@"Pulmicort"];
+        [resources addObject:aidsD];
+
+
+        [resources addObject:@"100"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:7]];
+        
+        [self eraseResources];
+        
         
         //Rhinocort
         
-        [products setObject:@"Rhinocort" forKey:[NSNumber numberWithInt:8]];
+        aids = [[NSArray alloc] initWithObjects:@"TarjetonPresentacionesRhinocort", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Tarjetón de Presentaciones Rhinocort", nil];        
+        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+        
+        
+        [resources addObject:@"Rhinocort"];
+        [resources addObject:aidsD];
+        
+        
+        [resources addObject:@"100"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:8]];
+        
+        [self eraseResources];    
+        
         
         //Symbicort
         
-        [products setObject:@"Symbicort" forKey:[NSNumber numberWithInt:9]];
+        aids = [[NSArray alloc] initWithObjects:@"TarjetonSymbicortInstitucionales",@"TarjetonAtlasiPad(Respiratorio)",@"TarjetonPrecios(VannairSimbicort)",@"TarjetonpresentacionesSymbicort", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Tarjetón Symbicort-Institucionales",@"Tarjetón Atlas (Respiratorio)",@"Tarjetón Precios (Vannair y Symbicort)",@"Tarjetón de Presentaciones Symbicort", nil];        
+
+        videos = [[NSArray alloc] initWithObjects:@"B2agonista",@"Budesonida",@"corticoidesinhalados",@"Mecanismocorticoides",@"mecanismoSymbicort",@"Rutacorticoides", nil];
+        videosK = [[NSArray alloc] initWithObjects:@"Mecanismo de acción B2 agonista LABA",@"Budesonida y formoterol efecto sinérgico único",@"Duración de la acción de los corticoides inhalados",@"Mecanismo de acción corticoides inhalados",@"Funcionamiento y mecanismo de Symbicort Turbuhaler",@"Ruta de los corticoides inhalados", nil] ;        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+
+        videosD = [[NSDictionary alloc] initWithObjects:videos forKeys:videosK];
+        
+        [resources addObject:@"Symbicort"];
+        [resources addObject:aidsD];
+        [resources addObject:@""];
+        [resources addObject:videosD];
+        [resources addObject:@"101"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:9]];
+        
+        [self eraseResources];
+        
         
         
         //Vannair
+        extras = [[NSArray alloc] initWithObjects:@"TarjetonAtlas",@"TarjetonPresentacionesVannair",@"TarjetonPrecios", nil];
+        extrasK = [[NSArray alloc] initWithObjects:@"Tarjetón Atlas para iPad (Respiratorio)",@"Tarjetón de Presentaciones Vannair",@"Tarjetón Precios", nil];        
         
-        [products setObject:@"Vannair" forKey:[NSNumber numberWithInt:10]];
+        extrasD = [[NSDictionary alloc] initWithObjects:extras forKeys:extrasK];
+        
+        
+        [resources addObject:@"Vannair"];
+        [resources addObject:@""];
+        [resources addObject:extrasD];        
+        
+        [resources addObject:@"010"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:10]];
+        
+        [self eraseResources]; 
+        
         
         //Seroquel
         

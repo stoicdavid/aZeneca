@@ -69,8 +69,9 @@
     if (fileType == pdf) {
         QLPreviewController *controlador1 = [[QLPreviewController alloc] init];
         HelperViewController *dummy = [[HelperViewController alloc] init];
-
+                
         dummy.documents=[file stringByAppendingString:[NSString stringWithFormat:@".%@",fileType ]];
+
         controlador1.dataSource =dummy;
         controlador1.delegate=dummy;
         controlador1.currentPreviewItemIndex =0;
