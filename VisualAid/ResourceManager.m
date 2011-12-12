@@ -229,26 +229,131 @@
 
         
         //Merrem
-        [products setObject:@"Merrem" forKey:[NSNumber numberWithInt:12]];
+        
+        
+        aids = [[NSArray alloc] initWithObjects:@"TarjetonMerrem", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Tarjetón Merrem", nil];        
+        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+        
+        
+        [resources addObject:@"Merrem"];
+        [resources addObject:aidsD];
+        
+        
+        [resources addObject:@"100"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:12]];
+        
+        [self eraseResources];    
+        
         
         //Salvemos el corazon
-        [products setObject:@"Salvemos el corazón" forKey:[NSNumber numberWithInt:13]];
+        
+        aids = [[NSArray alloc] initWithObjects:@"AnuncioSalvemos",@"FolletoRiesgoCardio",@"STANDLCVITAMEDICA",@"STANDLC2VITAMEDICA",@"TarjetonSELOKENSELOPRES", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Anuncio Salvemos",@"Folleto Riesgo Cardio",@"STAND LC VITAMEDICA",@"STAND LC 2 VITAMEDICA",@"Tarjetón SELOKEN SELOPRES", nil];        
+        
+        videos = [[NSArray alloc] initWithObjects:@"AZDiasPerdidos20",@"AZHistorias20",@"AZLluviaRoja220",@"LluviaRoja60Logo", nil];
+        videosK = [[NSArray alloc] initWithObjects:@"Astra Zeneca Días Perdidos 20",@"Astra Zeneca Historias 20",@"Astra Zeneca Lluvia Roja 2 20",@"Lluvia Roja 60 Logo", nil] ;        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+        
+        videosD = [[NSDictionary alloc] initWithObjects:videos forKeys:videosK];
+        
+        [resources addObject:@"SalvemosElCorazon"];
+        [resources addObject:aidsD];
+        [resources addObject:@""];
+        [resources addObject:videosD];
+        [resources addObject:@"101"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:13]];
+        
+        [self eraseResources];
+
         
         //Armidex
-        [products setObject:@"Arimidex" forKey:[NSNumber numberWithInt:14]];
+        aids = [[NSArray alloc] initWithObjects:@"AVArimidex", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Arimidex", nil];        
+        extras = [[NSArray alloc] initWithObjects:@"ArimidexBARNIZREGISTRO", nil];
+        extrasK = [[NSArray alloc] initWithObjects:@"Arimidex BARNIZ REGISTRO", nil] ;        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+        extrasD = [[NSDictionary alloc] initWithObjects:extras forKeys:extrasK];
+        
+        
+        [resources addObject:@"Arimidex"];
+        [resources addObject:aidsD];
+        [resources addObject:extrasD];
+        [resources addObject:@"110"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:14]];
+        
+        [self eraseResources];
+        
+        
         
         //Casodex-Zoldex
-        [products setObject:@"Casodex-Zoladex" forKey:[NSNumber numberWithInt:15]];
+        aids = [[NSArray alloc] initWithObjects:@"AVCasodex_Zoladex", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Casodex-Zoladex", nil];        
+        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+        
+        
+        [resources addObject:@"Casodex_Zoladex"];
+        [resources addObject:aidsD];
+        
+        
+        [resources addObject:@"100"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:15]];
+        
+        [self eraseResources];   
+        
         
         //Iressa
-        [products setObject:@"Iressa" forKey:[NSNumber numberWithInt:16]];
+        aids = [[NSArray alloc] initWithObjects:@"AVIressaMutacionEGFR", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Iressa Mutación EGFR", nil];        
+        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+        
+        
+        [resources addObject:@"Iressa"];
+        [resources addObject:aidsD];
+        
+        
+        [resources addObject:@"100"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:16]];
+        
+        [self eraseResources];   
+
         
         //Fasiodex
-        [products setObject:@"Fasiodex" forKey:[NSNumber numberWithInt:17]];
+        
+        aids = [[NSArray alloc] initWithObjects:@"AVFasiodex", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Fasiodex", nil];        
+        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+        
+        
+        [resources addObject:@"Fasiodex"];
+        [resources addObject:aidsD];
+        
+        
+        [resources addObject:@"100"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:17]];
+        
+        [self eraseResources];   
+        
         
         //Nexium IV
-        [products setObject:@"Nexium IV" forKey:[NSNumber numberWithInt:18]];
-
+        aids = [[NSArray alloc] initWithObjects:@"TarjetonEficaciaNexiumIV", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Tarjetón Eficacia Nexium IV", nil];        
+        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+        
+        
+        [resources addObject:@"NexiumIV"];
+        [resources addObject:aidsD];
+        
+        
+        [resources addObject:@"100"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:18]];
+        
+        [self eraseResources];   
 
 
     }
