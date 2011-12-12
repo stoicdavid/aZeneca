@@ -17,10 +17,18 @@
 
 -(IBAction) listResources:(id) sender {
     ListViewController *list = [[ListViewController alloc] initWithNibName:@"ListViewController" bundle:nil];
+    
+    ResourceManager *manager = [[ResourceManager alloc]init];
     list.modalTransitionStyle=UIModalTransitionStyleCrossDissolve;
     list.productType = self.productType;
     [list setResourceIconForButtonTag:[sender tag]];
-	[self presentModalViewController:list animated:YES];
+    
+    
+    UIImageView *logo2 = (UIImageView *)[list.view viewWithTag:99];
+    NSString *imageName = [NSString stringWithFormat:@"logo%@.png", [manager nameOfProduct:self.productType]];
+    [logo2 setImage:[UIImage imageNamed:imageName] ];
+    
+    [self presentModalViewController:list animated:YES];
 }
 
 

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1765ADA11495CFE3002D8036 /* AVOnglyza.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1765ADA01495CFE3002D8036 /* AVOnglyza.pdf */; };
+		1765ADA41495D00F002D8036 /* RAEstructuraPromocionalSeguridadEficacia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1765ADA21495D00F002D8036 /* RAEstructuraPromocionalSeguridadEficacia.pdf */; };
+		1765ADA51495D00F002D8036 /* RAEstudioSeguridadEficacia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1765ADA31495D00F002D8036 /* RAEstudioSeguridadEficacia.pdf */; };
+		1765ADA71495D1AF002D8036 /* FlatAZMexico_H264.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1765ADA61495D1AF002D8036 /* FlatAZMexico_H264.mp4 */; };
+		1765ADB11495D2D4002D8036 /* AVTarjetonAtacand.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1765ADB01495D2D4002D8036 /* AVTarjetonAtacand.pdf */; };
+		1765ADB31495D2DB002D8036 /* AVNexium2_5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1765ADB21495D2DB002D8036 /* AVNexium2_5.pdf */; };
+		177959FC1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 177959FA1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 */; };
+		177959FD1495CF06006AE693 /* VideoCorazon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 177959FB1495CF06006AE693 /* VideoCorazon.mp4 */; };
 		17FF58A6149583E20056C21F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FF58A5149583E20056C21F /* MediaPlayer.framework */; };
 		17FF58AD149588DC0056C21F /* ResourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FF58AC149588DC0056C21F /* ResourceView.m */; };
 		AA038D22149495CC00667A09 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA038D20149495CC00667A09 /* ListViewController.m */; };
@@ -65,10 +73,6 @@
 		AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */; };
 		AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */; };
 		AAA3EEC9149588D100DFFE8A /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3EEC8149588D100DFFE8A /* ResourceManager.m */; };
-		AAA3EEE61495B97400DFFE8A /* TicagrelorMecanismodeAccion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEE41495B97400DFFE8A /* TicagrelorMecanismodeAccion.mp4 */; };
-		AAA3EEE71495B97400DFFE8A /* VideoCorazon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEE51495B97400DFFE8A /* VideoCorazon.mp4 */; };
-		AAA3EEE91495B98200DFFE8A /* FlatAZMexico_H264.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEE81495B98200DFFE8A /* FlatAZMexico_H264.mp4 */; };
-		AAA3EEEB1495B98B00DFFE8A /* FlatAZMexico_02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEEA1495B98B00DFFE8A /* FlatAZMexico_02.mp4 */; };
 		AAF0BE9F14949B3400CB887D /* ResourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */; };
 		AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BE9E14949B3400CB887D /* ResourceViewController.m */; };
 		AAF0BF9D1495606700CB887D /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF0BF9C1495606700CB887D /* QuickLook.framework */; };
@@ -77,6 +81,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1765ADA01495CFE3002D8036 /* AVOnglyza.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOnglyza.pdf; sourceTree = "<group>"; };
+		1765ADA21495D00F002D8036 /* RAEstructuraPromocionalSeguridadEficacia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RAEstructuraPromocionalSeguridadEficacia.pdf; sourceTree = "<group>"; };
+		1765ADA31495D00F002D8036 /* RAEstudioSeguridadEficacia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RAEstudioSeguridadEficacia.pdf; sourceTree = "<group>"; };
+		1765ADA61495D1AF002D8036 /* FlatAZMexico_H264.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlatAZMexico_H264.mp4; sourceTree = "<group>"; };
+		1765ADB01495D2D4002D8036 /* AVTarjetonAtacand.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVTarjetonAtacand.pdf; sourceTree = "<group>"; };
+		1765ADB21495D2DB002D8036 /* AVNexium2_5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVNexium2_5.pdf; sourceTree = "<group>"; };
+		177959FA1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TicagrelorMecanismodeAccion.mp4; sourceTree = "<group>"; };
+		177959FB1495CF06006AE693 /* VideoCorazon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VideoCorazon.mp4; sourceTree = "<group>"; };
 		17FF58A5149583E20056C21F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		17FF58AB149588DC0056C21F /* ResourceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceView.h; sourceTree = "<group>"; };
 		17FF58AC149588DC0056C21F /* ResourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceView.m; sourceTree = "<group>"; };
@@ -143,10 +155,6 @@
 		AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOEtarjetonesCOMBINACION.pdf; sourceTree = "<group>"; };
 		AAA3EEC7149588D100DFFE8A /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
 		AAA3EEC8149588D100DFFE8A /* ResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceManager.m; sourceTree = "<group>"; };
-		AAA3EEE41495B97400DFFE8A /* TicagrelorMecanismodeAccion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TicagrelorMecanismodeAccion.mp4; sourceTree = "<group>"; };
-		AAA3EEE51495B97400DFFE8A /* VideoCorazon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VideoCorazon.mp4; sourceTree = "<group>"; };
-		AAA3EEE81495B98200DFFE8A /* FlatAZMexico_H264.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlatAZMexico_H264.mp4; sourceTree = "<group>"; };
-		AAA3EEEA1495B98B00DFFE8A /* FlatAZMexico_02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlatAZMexico_02.mp4; sourceTree = "<group>"; };
 		AAF0BE9C14949B3400CB887D /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
 		AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourceViewController.xib; sourceTree = "<group>"; };
 		AAF0BE9E14949B3400CB887D /* ResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceViewController.m; sourceTree = "<group>"; };
@@ -172,6 +180,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1765AD9C1495CFB7002D8036 /* 3Onglyza */ = {
+			isa = PBXGroup;
+			children = (
+				1765AD9F1495CFD5002D8036 /* PDF */,
+				1765AD9E1495CFCE002D8036 /* Video */,
+			);
+			name = 3Onglyza;
+			sourceTree = "<group>";
+		};
+		1765AD9E1495CFCE002D8036 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		1765AD9F1495CFD5002D8036 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				1765ADA21495D00F002D8036 /* RAEstructuraPromocionalSeguridadEficacia.pdf */,
+				1765ADA31495D00F002D8036 /* RAEstudioSeguridadEficacia.pdf */,
+				1765ADA01495CFE3002D8036 /* AVOnglyza.pdf */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		1765ADA81495D21B002D8036 /* 4Atacand */ = {
+			isa = PBXGroup;
+			children = (
+				1765ADAB1495D24E002D8036 /* Video */,
+				1765ADAA1495D248002D8036 /* PDF */,
+			);
+			name = 4Atacand;
+			sourceTree = "<group>";
+		};
+		1765ADA91495D23F002D8036 /* 5Nexium */ = {
+			isa = PBXGroup;
+			children = (
+				1765ADAD1495D264002D8036 /* PDF */,
+				1765ADAC1495D25E002D8036 /* Video */,
+			);
+			name = 5Nexium;
+			sourceTree = "<group>";
+		};
+		1765ADAA1495D248002D8036 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				1765ADB01495D2D4002D8036 /* AVTarjetonAtacand.pdf */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		1765ADAB1495D24E002D8036 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		1765ADAC1495D25E002D8036 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		1765ADAD1495D264002D8036 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				1765ADB21495D2DB002D8036 /* AVNexium2_5.pdf */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
 		17FF58A71495883B0056C21F /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,8 +423,8 @@
 		AAA3EEA01495656500DFFE8A /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				AAA3EEE41495B97400DFFE8A /* TicagrelorMecanismodeAccion.mp4 */,
-				AAA3EEE51495B97400DFFE8A /* VideoCorazon.mp4 */,
+				177959FA1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 */,
+				177959FB1495CF06006AE693 /* VideoCorazon.mp4 */,
 			);
 			name = Video;
 			sourceTree = "<group>";
@@ -359,8 +441,7 @@
 		AAA3EEA31495659600DFFE8A /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				AAA3EEEA1495B98B00DFFE8A /* FlatAZMexico_02.mp4 */,
-				AAA3EEE81495B98200DFFE8A /* FlatAZMexico_H264.mp4 */,
+				1765ADA61495D1AF002D8036 /* FlatAZMexico_H264.mp4 */,
 			);
 			name = Video;
 			sourceTree = "<group>";
@@ -377,6 +458,9 @@
 		AAF0BEA91494A6EF00CB887D /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				1765ADA91495D23F002D8036 /* 5Nexium */,
+				1765ADA81495D21B002D8036 /* 4Atacand */,
+				1765AD9C1495CFB7002D8036 /* 3Onglyza */,
 				AAA3EEA21495658E00DFFE8A /* 2Crestor */,
 				AAA3EE9D1495653E00DFFE8A /* 1Brilinta */,
 			);
@@ -484,10 +568,14 @@
 				AAA3EEAA14956A4500DFFE8A /* RAEstudioPlato.PDF in Resources */,
 				AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */,
 				AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */,
-				AAA3EEE61495B97400DFFE8A /* TicagrelorMecanismodeAccion.mp4 in Resources */,
-				AAA3EEE71495B97400DFFE8A /* VideoCorazon.mp4 in Resources */,
-				AAA3EEE91495B98200DFFE8A /* FlatAZMexico_H264.mp4 in Resources */,
-				AAA3EEEB1495B98B00DFFE8A /* FlatAZMexico_02.mp4 in Resources */,
+				177959FC1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 in Resources */,
+				177959FD1495CF06006AE693 /* VideoCorazon.mp4 in Resources */,
+				1765ADA11495CFE3002D8036 /* AVOnglyza.pdf in Resources */,
+				1765ADA41495D00F002D8036 /* RAEstructuraPromocionalSeguridadEficacia.pdf in Resources */,
+				1765ADA51495D00F002D8036 /* RAEstudioSeguridadEficacia.pdf in Resources */,
+				1765ADA71495D1AF002D8036 /* FlatAZMexico_H264.mp4 in Resources */,
+				1765ADB11495D2D4002D8036 /* AVTarjetonAtacand.pdf in Resources */,
+				1765ADB31495D2DB002D8036 /* AVNexium2_5.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

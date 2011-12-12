@@ -56,7 +56,7 @@
         
         [resources addObject:@"Crestor"];
         [resources addObject:aidsD];
-
+        [resources addObject:@""];
         [resources addObject:videosD];
 
         [resources addObject:@"101"];   
@@ -65,10 +65,10 @@
         [self eraseResources];
         
         //Onglyza
-        aids = [[NSArray alloc] initWithObjects:@"AVOnglyza.pdf", nil];
-        aidsK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil];        
-        extras = [[NSArray alloc] initWithObjects:@"RAEstructuraPromocionalSeguridadEficacia.pdf",@"RAEstudioSeguridadEficacia.pdf", nil];
-        extrasK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1],[NSNumber numberWithInt:2], nil] ;        
+        aids = [[NSArray alloc] initWithObjects:@"AVOnglyza", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Apoyo Visual Onglyza", nil];        
+        extras = [[NSArray alloc] initWithObjects:@"RAEstructuraPromocionalSeguridadEficacia",@"RAEstudioSeguridadEficacia", nil];
+        extrasK = [[NSArray alloc] initWithObjects:@"Estructura Promocional Seguridad Eficacia", @"Estudio Seguridad Eficacia", nil] ;        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         extrasD = [[NSDictionary alloc] initWithObjects:extras forKeys:extrasK];
 
@@ -84,8 +84,8 @@
 
         //Atacand
         
-        aids = [[NSArray alloc] initWithObjects:@"AVTarjetonAtacand.pdf", nil];
-        aidsK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil];        
+        aids = [[NSArray alloc] initWithObjects:@"AVTarjetonAtacand", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Tarjeton Atacand", nil];        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
 
         
@@ -98,13 +98,13 @@
         [self eraseResources];
         
         //Nexium 2.5
-        aids = [[NSArray alloc] initWithObjects:@"AVNexium2_5.pdf", nil];
-        aidsK = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:1], nil];        
+        aids = [[NSArray alloc] initWithObjects:@"AVNexium2_5", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Nexium Sachets 2.5", nil];        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         
         
         
-        [resources addObject:@"Nexium 2.5"];
+        [resources addObject:@"Nexium2.5"];
         [resources addObject:aidsD];
         [resources addObject:@"100"];
         [products setObject:resources forKey:[NSNumber numberWithInt:5]];
