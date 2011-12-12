@@ -211,6 +211,21 @@
         
         //Seroquel
         
+        aids = [[NSArray alloc] initWithObjects:@"AVEsquizofrenia",@"AVTrastornoBipolar", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Esquizofrenia",@"Trastorno Bipolar", nil];        
+        
+        aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
+        
+        
+        [resources addObject:@"Seroquel"];
+        [resources addObject:aidsD];
+        
+        
+        [resources addObject:@"100"];
+        [products setObject:resources forKey:[NSNumber numberWithInt:8]];
+        
+        [self eraseResources];    
+        
         [products setObject:@"Seroquel" forKey:[NSNumber numberWithInt:11]];
         
         //Merrem
