@@ -320,65 +320,17 @@
 			name = Interface;
 			sourceTree = "<group>";
 		};
-		AAA3EE9D1495653E00DFFE8A /* 1Brilinta */ = {
-			isa = PBXGroup;
-			children = (
-				AAA3EEA01495656500DFFE8A /* Video */,
-				AAA3EE9E1495655600DFFE8A /* PDF */,
-			);
-			name = 1Brilinta;
-			sourceTree = "<group>";
-		};
-		AAA3EE9E1495655600DFFE8A /* PDF */ = {
-			isa = PBXGroup;
-			children = (
-				AA7AE8521495E7ED00134A89 /* RAEstudioPlato.pdf */,
-				AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */,
-			);
-			name = PDF;
-			sourceTree = "<group>";
-		};
-		AAA3EEA01495656500DFFE8A /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				AAA3EEE41495B97400DFFE8A /* TicagrelorMecanismodeAccion.mp4 */,
-				AAA3EEE51495B97400DFFE8A /* VideoCorazon.mp4 */,
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		AAA3EEA21495658E00DFFE8A /* 2Crestor */ = {
-			isa = PBXGroup;
-			children = (
-				AAA3EEA41495659D00DFFE8A /* PDF */,
-				AAA3EEA31495659600DFFE8A /* Video */,
-			);
-			name = 2Crestor;
-			sourceTree = "<group>";
-		};
-		AAA3EEA31495659600DFFE8A /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				AAA3EEEA1495B98B00DFFE8A /* FlatAZMexico_02.mp4 */,
-				AAA3EEE81495B98200DFFE8A /* FlatAZMexico_H264.mp4 */,
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		AAA3EEA41495659D00DFFE8A /* PDF */ = {
-			isa = PBXGroup;
-			children = (
-				AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */,
-				AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */,
-			);
-			name = PDF;
-			sourceTree = "<group>";
-		};
 		AAF0BEA91494A6EF00CB887D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAA3EEA21495658E00DFFE8A /* 2Crestor */,
-				AAA3EE9D1495653E00DFFE8A /* 1Brilinta */,
+				AAA3EEEA1495B98B00DFFE8A /* FlatAZMexico_02.mp4 */,
+				AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */,
+				AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */,
+				AAA3EEE81495B98200DFFE8A /* FlatAZMexico_H264.mp4 */,
+				AAA3EEE41495B97400DFFE8A /* TicagrelorMecanismodeAccion.mp4 */,
+				AAA3EEE51495B97400DFFE8A /* VideoCorazon.mp4 */,
+				AA7AE8521495E7ED00134A89 /* RAEstudioPlato.pdf */,
+				AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */,
 			);
 			name = Products;
 			sourceTree = "<group>";

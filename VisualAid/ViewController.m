@@ -26,19 +26,19 @@
     resource.logo = logo;
     resource.productType=sender.tag;
     
-    NSLog(@"va");
+
     if (![manager productHasVisualAids:sender.tag]){
         UIButton *res = (UIButton *)[resource.view viewWithTag:1];
         //res.alpha = 0.5;
         res.enabled=NO;
     }
-         NSLog(@"xx");
+
     if (![manager productHasExtras:sender.tag]){
         UIButton *res = (UIButton *)[resource.view viewWithTag:2];
         //res.alpha = 0.5;
         res.enabled=NO;
     }
-        NSLog(@"vid");
+
     if (![manager productHasVideos:sender.tag]){
         UIButton *res = (UIButton *)[resource.view viewWithTag:3];
         //res.alpha = 0.5;

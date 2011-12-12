@@ -103,7 +103,7 @@
         self.resourceList = [[NSMutableDictionary alloc ] initWithDictionary:[manager extrasByProduct:self.productType]];
 
     } else if(tag == 3) {
-        NSLog(@"%d",productType);
+
         
         self.resourceList = [[NSMutableDictionary alloc ] initWithDictionary:[manager videosByProduct:self.productType]];
         resource = @"botonVideos.png";
