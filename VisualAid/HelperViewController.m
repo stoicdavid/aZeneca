@@ -78,9 +78,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    if (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) return YES;
-    else if (interfaceOrientation == UIInterfaceOrientationLandscapeRight)return YES;
-    else return NO;
+    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
 @end

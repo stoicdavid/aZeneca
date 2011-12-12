@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface PDFTableViewController : UITableViewController
+@interface PDFTableViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate>
 {
 NSString *nombreDelRecurso;
 

@@ -156,10 +156,6 @@
 //    NSURL *fileURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/AVBrilinta.pdf", [[NSBundle mainBundle] resourcePath]]];
     
     //[self setupDocumentControllerWithURL:fileURL];
-
-
-
-    
     QLPreviewController *controlador1 = [[QLPreviewController alloc] init];    
     HelperViewController *dummy = [[HelperViewController alloc] init];
     
@@ -168,13 +164,11 @@
     controlador1.dataSource =dummy;
     controlador1.delegate=dummy;
     controlador1.currentPreviewItemIndex =0;
-    
     [self presentModalViewController:controlador1 animated:YES];
     
-    
-    
-    
     [controlador1 release]; 
+    
+
 
 }
 

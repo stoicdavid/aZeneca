@@ -11,6 +11,4 @@ project.xcworkspace/
 VersionX-revision.h
 build/
 *.[oa]
-*.pdf
-*.PDF
 *.mp4

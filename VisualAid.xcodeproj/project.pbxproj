@@ -58,13 +58,14 @@
 		AA30912114948FCB008C4C86 /* logoSeroquel.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30910F14948FCB008C4C86 /* logoSeroquel.png */; };
 		AA30912214948FCB008C4C86 /* logoSymbicort.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30911014948FCB008C4C86 /* logoSymbicort.png */; };
 		AA30912314948FCB008C4C86 /* logoVannair.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30911114948FCB008C4C86 /* logoVannair.png */; };
+		AAA3EEA814956A3A00DFFE8A /* AVBrilinta.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */; };
+		AAA3EEAA14956A4500DFFE8A /* RAEstudioPlato.PDF in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEA914956A4500DFFE8A /* RAEstudioPlato.PDF */; };
+		AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */; };
+		AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */; };
+		AAA3EEC9149588D100DFFE8A /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3EEC8149588D100DFFE8A /* ResourceManager.m */; };
 		AAF0BE9F14949B3400CB887D /* ResourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */; };
 		AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BE9E14949B3400CB887D /* ResourceViewController.m */; };
 		AAF0BF601494AC2400CB887D /* PDFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BF5F1494AC2400CB887D /* PDFTableViewController.m */; };
-		AAF0BF9814954D7800CB887D /* AVBrilinta.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BEAC1494A73D00CB887D /* AVBrilinta.pdf */; };
-		AAF0BF9914954D8100CB887D /* Estudio Plato.PDF in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BEAE1494A73D00CB887D /* Estudio Plato.PDF */; };
-		AAF0BF9A14954D8700CB887D /* FlatAZMexico_02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BF9414953B8100CB887D /* FlatAZMexico_02.mp4 */; };
-		AAF0BF9B14954D8F00CB887D /* FlatAZMexico_H264.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BF9514953B8100CB887D /* FlatAZMexico_H264.mp4 */; };
 		AAF0BF9D1495606700CB887D /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF0BF9C1495606700CB887D /* QuickLook.framework */; };
 		AAF0BFA4149561B600CB887D /* HelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BFA2149561B500CB887D /* HelperViewController.m */; };
 		AAF0BFA5149561B600CB887D /* HelperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BFA3149561B500CB887D /* HelperViewController.xib */; };
@@ -128,17 +129,17 @@
 		AA30910F14948FCB008C4C86 /* logoSeroquel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoSeroquel.png; sourceTree = "<group>"; };
 		AA30911014948FCB008C4C86 /* logoSymbicort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoSymbicort.png; sourceTree = "<group>"; };
 		AA30911114948FCB008C4C86 /* logoVannair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoVannair.png; sourceTree = "<group>"; };
+		AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVBrilinta.pdf; sourceTree = "<group>"; };
+		AAA3EEA914956A4500DFFE8A /* RAEstudioPlato.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RAEstudioPlato.PDF; sourceTree = "<group>"; };
+		AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOEtarjetonATORVASTATINA.pdf; sourceTree = "<group>"; };
+		AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOEtarjetonesCOMBINACION.pdf; sourceTree = "<group>"; };
+		AAA3EEC7149588D100DFFE8A /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
+		AAA3EEC8149588D100DFFE8A /* ResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceManager.m; sourceTree = "<group>"; };
 		AAF0BE9C14949B3400CB887D /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
 		AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourceViewController.xib; sourceTree = "<group>"; };
 		AAF0BE9E14949B3400CB887D /* ResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceViewController.m; sourceTree = "<group>"; };
-		AAF0BEAC1494A73D00CB887D /* AVBrilinta.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVBrilinta.pdf; sourceTree = "<group>"; };
-		AAF0BEAE1494A73D00CB887D /* Estudio Plato.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Estudio Plato.PDF"; sourceTree = "<group>"; };
-		AAF0BEB41494A73D00CB887D /* OE tarjeton ATORVASTATINA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "OE tarjeton ATORVASTATINA.pdf"; sourceTree = "<group>"; };
-		AAF0BEB51494A73D00CB887D /* OE tarjetones COMBINACION.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "OE tarjetones COMBINACION.pdf"; sourceTree = "<group>"; };
 		AAF0BF5E1494AC2400CB887D /* PDFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTableViewController.h; sourceTree = "<group>"; };
 		AAF0BF5F1494AC2400CB887D /* PDFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFTableViewController.m; sourceTree = "<group>"; };
-		AAF0BF9414953B8100CB887D /* FlatAZMexico_02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlatAZMexico_02.mp4; sourceTree = "<group>"; };
-		AAF0BF9514953B8100CB887D /* FlatAZMexico_H264.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlatAZMexico_H264.mp4; sourceTree = "<group>"; };
 		AAF0BF9C1495606700CB887D /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		AAF0BFA1149561B500CB887D /* HelperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperViewController.h; sourceTree = "<group>"; };
 		AAF0BFA2149561B500CB887D /* HelperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperViewController.m; sourceTree = "<group>"; };
@@ -202,6 +203,8 @@
 				AAF0BE9E14949B3400CB887D /* ResourceViewController.m */,
 				AA038D1F149495CC00667A09 /* ListViewController.h */,
 				AA038D20149495CC00667A09 /* ListViewController.m */,
+				AAA3EEC7149588D100DFFE8A /* ResourceManager.h */,
+				AAA3EEC8149588D100DFFE8A /* ResourceManager.m */,
 				AA038D21149495CC00667A09 /* ListViewController.xib */,
 				AAF0BF5D1494AAB100CB887D /* TableView */,
 				AA3090B814948BC7008C4C86 /* Supporting Files */,
@@ -296,59 +299,63 @@
 			name = Interface;
 			sourceTree = "<group>";
 		};
+		AAA3EE9D1495653E00DFFE8A /* 1Brilinta */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3EEA01495656500DFFE8A /* Video */,
+				AAA3EE9E1495655600DFFE8A /* PDF */,
+			);
+			name = 1Brilinta;
+			sourceTree = "<group>";
+		};
+		AAA3EE9E1495655600DFFE8A /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3EEA914956A4500DFFE8A /* RAEstudioPlato.PDF */,
+				AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		AAA3EEA01495656500DFFE8A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		AAA3EEA21495658E00DFFE8A /* 2Crestor */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3EEA41495659D00DFFE8A /* PDF */,
+				AAA3EEA31495659600DFFE8A /* Video */,
+			);
+			name = 2Crestor;
+			sourceTree = "<group>";
+		};
+		AAA3EEA31495659600DFFE8A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		AAA3EEA41495659D00DFFE8A /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */,
+				AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
 		AAF0BEA91494A6EF00CB887D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAF0BEAA1494A73D00CB887D /* 1.Brilinta */,
-				AAF0BEB21494A73D00CB887D /* 2.Crestor */,
+				AAA3EEA21495658E00DFFE8A /* 2Crestor */,
+				AAA3EE9D1495653E00DFFE8A /* 1Brilinta */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AAF0BEAA1494A73D00CB887D /* 1.Brilinta */ = {
-			isa = PBXGroup;
-			children = (
-				AAF0BEAB1494A73D00CB887D /* AyudaVisual */,
-				AAF0BEAD1494A73D00CB887D /* RecursosAdicionales */,
-			);
-			path = 1.Brilinta;
-			sourceTree = "<group>";
-		};
-		AAF0BEAB1494A73D00CB887D /* AyudaVisual */ = {
-			isa = PBXGroup;
-			children = (
-				AAF0BEAC1494A73D00CB887D /* AVBrilinta.pdf */,
-			);
-			name = AyudaVisual;
-			path = "Ayuda Visual";
-			sourceTree = "<group>";
-		};
-		AAF0BEAD1494A73D00CB887D /* RecursosAdicionales */ = {
-			isa = PBXGroup;
-			children = (
-				AAF0BEAE1494A73D00CB887D /* Estudio Plato.PDF */,
-			);
-			name = RecursosAdicionales;
-			path = "Recursos Adicionales";
-			sourceTree = "<group>";
-		};
-		AAF0BEB21494A73D00CB887D /* 2.Crestor */ = {
-			isa = PBXGroup;
-			children = (
-				AAF0BF9314953B8100CB887D /* Videos */,
-				AAF0BEB31494A73D00CB887D /* AyudaVisual */,
-			);
-			path = 2.Crestor;
-			sourceTree = "<group>";
-		};
-		AAF0BEB31494A73D00CB887D /* AyudaVisual */ = {
-			isa = PBXGroup;
-			children = (
-				AAF0BEB41494A73D00CB887D /* OE tarjeton ATORVASTATINA.pdf */,
-				AAF0BEB51494A73D00CB887D /* OE tarjetones COMBINACION.pdf */,
-			);
-			name = AyudaVisual;
-			path = "Ayuda Visual";
 			sourceTree = "<group>";
 		};
 		AAF0BF5D1494AAB100CB887D /* TableView */ = {
@@ -358,15 +365,6 @@
 				AAF0BF5F1494AC2400CB887D /* PDFTableViewController.m */,
 			);
 			name = TableView;
-			sourceTree = "<group>";
-		};
-		AAF0BF9314953B8100CB887D /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				AAF0BF9414953B8100CB887D /* FlatAZMexico_02.mp4 */,
-				AAF0BF9514953B8100CB887D /* FlatAZMexico_H264.mp4 */,
-			);
-			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,10 +418,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF0BF9B14954D8F00CB887D /* FlatAZMexico_H264.mp4 in Resources */,
-				AAF0BF9A14954D8700CB887D /* FlatAZMexico_02.mp4 in Resources */,
-				AAF0BF9914954D8100CB887D /* Estudio Plato.PDF in Resources */,
-				AAF0BF9814954D7800CB887D /* AVBrilinta.pdf in Resources */,
 				AA3090BC14948BC7008C4C86 /* InfoPlist.strings in Resources */,
 				AA3090C814948BC7008C4C86 /* ViewController.xib in Resources */,
 				AA3090D314948F48008C4C86 /* plecaFooter.png in Resources */,
@@ -470,6 +464,10 @@
 				AA038D23149495CC00667A09 /* ListViewController.xib in Resources */,
 				AAF0BE9F14949B3400CB887D /* ResourceViewController.xib in Resources */,
 				AAF0BFA5149561B600CB887D /* HelperViewController.xib in Resources */,
+				AAA3EEA814956A3A00DFFE8A /* AVBrilinta.pdf in Resources */,
+				AAA3EEAA14956A4500DFFE8A /* RAEstudioPlato.PDF in Resources */,
+				AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */,
+				AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +485,7 @@
 				AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */,
 				AAF0BF601494AC2400CB887D /* PDFTableViewController.m in Sources */,
 				AAF0BFA4149561B600CB887D /* HelperViewController.m in Sources */,
+				AAA3EEC9149588D100DFFE8A /* ResourceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
