@@ -222,11 +222,11 @@
         
         
         [resources addObject:@"100"];
-        [products setObject:resources forKey:[NSNumber numberWithInt:8]];
+        [products setObject:resources forKey:[NSNumber numberWithInt:11]];
         
         [self eraseResources];    
         
-        [products setObject:@"Seroquel" forKey:[NSNumber numberWithInt:11]];
+
         
         //Merrem
         [products setObject:@"Merrem" forKey:[NSNumber numberWithInt:12]];
