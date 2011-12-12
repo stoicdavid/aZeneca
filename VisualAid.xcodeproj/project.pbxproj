@@ -62,6 +62,7 @@
 		AA30912314948FCB008C4C86 /* logoVannair.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30911114948FCB008C4C86 /* logoVannair.png */; };
 		AA7AE89514960C5C00134A89 /* AVEsquizofrenia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE89314960C5C00134A89 /* AVEsquizofrenia.pdf */; };
 		AA7AE89614960C5C00134A89 /* AVTrastornoBipolar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE89414960C5C00134A89 /* AVTrastornoBipolar.pdf */; };
+		AA87DFC61496C4530027BAD3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA87DFC51496C4530027BAD3 /* Icon.png */; };
 		AAA3EEC9149588D100DFFE8A /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3EEC8149588D100DFFE8A /* ResourceManager.m */; };
 		AAF0BE9F14949B3400CB887D /* ResourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */; };
 		AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BE9E14949B3400CB887D /* ResourceViewController.m */; };
@@ -77,7 +78,7 @@
 		AA038D1F149495CC00667A09 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		AA038D20149495CC00667A09 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		AA038D21149495CC00667A09 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
-		AA3090AD14948BC7008C4C86 /* VisualAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3090AD14948BC7008C4C86 /* AVI Seroquel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVI Seroquel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3090B114948BC7008C4C86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA3090B314948BC7008C4C86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA3090B514948BC7008C4C86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,6 +134,7 @@
 		AA30911114948FCB008C4C86 /* logoVannair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoVannair.png; sourceTree = "<group>"; };
 		AA7AE89314960C5C00134A89 /* AVEsquizofrenia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVEsquizofrenia.pdf; sourceTree = "<group>"; };
 		AA7AE89414960C5C00134A89 /* AVTrastornoBipolar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVTrastornoBipolar.pdf; sourceTree = "<group>"; };
+		AA87DFC51496C4530027BAD3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		AAA3EEC7149588D100DFFE8A /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
 		AAA3EEC8149588D100DFFE8A /* ResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceManager.m; sourceTree = "<group>"; };
 		AAF0BE9C14949B3400CB887D /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
@@ -182,7 +184,7 @@
 		AA3090AE14948BC7008C4C86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA3090AD14948BC7008C4C86 /* VisualAid.app */,
+				AA3090AD14948BC7008C4C86 /* AVI Seroquel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				AA30910014948FCB008C4C86 /* logoArimidex.png */,
+				AA87DFC51496C4530027BAD3 /* Icon.png */,
 				AA30910114948FCB008C4C86 /* logoAtacand.png */,
 				AA30910214948FCB008C4C86 /* logoBrilinta.png */,
 				AA30910314948FCB008C4C86 /* logoCasodex_Zoladex.png */,
@@ -334,7 +337,7 @@
 			);
 			name = VisualAid;
 			productName = VisualAid;
-			productReference = AA3090AD14948BC7008C4C86 /* VisualAid.app */;
+			productReference = AA3090AD14948BC7008C4C86 /* AVI Seroquel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -416,6 +419,7 @@
 				AAF0BFA5149561B600CB887D /* HelperViewController.xib in Resources */,
 				AA7AE89514960C5C00134A89 /* AVEsquizofrenia.pdf in Resources */,
 				AA7AE89614960C5C00134A89 /* AVTrastornoBipolar.pdf in Resources */,
+				AA87DFC61496C4530027BAD3 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VisualAid/VisualAid-Prefix.pch";
 				INFOPLIST_FILE = "VisualAid/VisualAid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AVI Seroquel";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -521,7 +525,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VisualAid/VisualAid-Prefix.pch";
 				INFOPLIST_FILE = "VisualAid/VisualAid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AVI Seroquel";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
