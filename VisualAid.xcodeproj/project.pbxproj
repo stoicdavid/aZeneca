@@ -45,7 +45,7 @@
 		AA3090FF14948FB7008C4C86 /* botonVannair.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3090FA14948FB7008C4C86 /* botonVannair.png */; };
 		AA30911214948FCB008C4C86 /* logoArimidex.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30910014948FCB008C4C86 /* logoArimidex.png */; };
 		AA30911314948FCB008C4C86 /* logoAtacand.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30910114948FCB008C4C86 /* logoAtacand.png */; };
-		AA30911414948FCB008C4C86 /* logoBrillinta.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30910214948FCB008C4C86 /* logoBrillinta.png */; };
+		AA30911414948FCB008C4C86 /* logoBrilinta.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30910214948FCB008C4C86 /* logoBrilinta.png */; };
 		AA30911514948FCB008C4C86 /* logoCasodex_Zoladex.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30910314948FCB008C4C86 /* logoCasodex_Zoladex.png */; };
 		AA30911614948FCB008C4C86 /* logoCrestor.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30910414948FCB008C4C86 /* logoCrestor.png */; };
 		AA30911714948FCB008C4C86 /* logoFaslodex.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30910514948FCB008C4C86 /* logoFaslodex.png */; };
@@ -120,7 +120,7 @@
 		AA3090FA14948FB7008C4C86 /* botonVannair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botonVannair.png; sourceTree = "<group>"; };
 		AA30910014948FCB008C4C86 /* logoArimidex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoArimidex.png; sourceTree = "<group>"; };
 		AA30910114948FCB008C4C86 /* logoAtacand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoAtacand.png; sourceTree = "<group>"; };
-		AA30910214948FCB008C4C86 /* logoBrillinta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoBrillinta.png; sourceTree = "<group>"; };
+		AA30910214948FCB008C4C86 /* logoBrilinta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoBrilinta.png; sourceTree = "<group>"; };
 		AA30910314948FCB008C4C86 /* logoCasodex_Zoladex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoCasodex_Zoladex.png; sourceTree = "<group>"; };
 		AA30910414948FCB008C4C86 /* logoCrestor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoCrestor.png; sourceTree = "<group>"; };
 		AA30910514948FCB008C4C86 /* logoFaslodex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoFaslodex.png; sourceTree = "<group>"; };
@@ -293,7 +293,7 @@
 			children = (
 				AA30910014948FCB008C4C86 /* logoArimidex.png */,
 				AA30910114948FCB008C4C86 /* logoAtacand.png */,
-				AA30910214948FCB008C4C86 /* logoBrillinta.png */,
+				AA30910214948FCB008C4C86 /* logoBrilinta.png */,
 				AA30910314948FCB008C4C86 /* logoCasodex_Zoladex.png */,
 				AA30910414948FCB008C4C86 /* logoCrestor.png */,
 				AA30910514948FCB008C4C86 /* logoFaslodex.png */,
@@ -462,7 +462,7 @@
 				AA3090FF14948FB7008C4C86 /* botonVannair.png in Resources */,
 				AA30911214948FCB008C4C86 /* logoArimidex.png in Resources */,
 				AA30911314948FCB008C4C86 /* logoAtacand.png in Resources */,
-				AA30911414948FCB008C4C86 /* logoBrillinta.png in Resources */,
+				AA30911414948FCB008C4C86 /* logoBrilinta.png in Resources */,
 				AA30911514948FCB008C4C86 /* logoCasodex_Zoladex.png in Resources */,
 				AA30911614948FCB008C4C86 /* logoCrestor.png in Resources */,
 				AA30911714948FCB008C4C86 /* logoFaslodex.png in Resources */,

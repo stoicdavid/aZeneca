@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ResourceViewController.h"
+#import "ResourceManager.h"
 @interface ViewController : UIViewController
 {
     UIButton *productButton;
@@ -15,6 +16,6 @@
 
 @property (nonatomic, retain) UIButton *productButton;
 
--(IBAction) openResources;
+-(IBAction) openResources:(UIButton *)sender;
 
 @end

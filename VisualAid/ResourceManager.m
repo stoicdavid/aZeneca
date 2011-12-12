@@ -13,16 +13,9 @@
 
 
 - (void) eraseResources{
-    [resources removeAllObjects];
-    aids=nil;
-    aidsK=nil;
-    extras=nil;
-    extrasK=nil;
-    videos=nil;
-    videosK=nil;        
-    aidsD=nil;
-    extrasD=nil;
-    videosD=nil;
+    [resources release];
+    resources = [[NSMutableArray alloc] init];
+
 }
 
 - (id) init
@@ -46,9 +39,11 @@
         [resources addObject:aidsD];
         [resources addObject:extrasD];
         [resources addObject:videosD];
+          NSLog(@"%@",videosD);
         [resources addObject:@"111"];
         [products setObject:resources forKey:[NSNumber numberWithInt:1]];
-        
+        NSLog(@"RECURSOS%@",resources.description);
+        NSLog(@"PRODUCTOS%@",products.description);
         [self eraseResources];
 
         
@@ -62,10 +57,13 @@
         
         [resources addObject:@"Crestor"];
         [resources addObject:aidsD];
+        NSLog(@"%@",aidsD);
         [resources addObject:videosD];
+                NSLog(@"%@",videosD);
         [resources addObject:@"101"];   
         [products setObject:resources forKey:[NSNumber numberWithInt:2]];
-
+        NSLog(@"RECURSOS%@",resources.description);
+        NSLog(@"PRODUCTOS%@",products.description);
         [self eraseResources];
         
         //Onglyza
@@ -82,7 +80,8 @@
         [resources addObject:extrasD];
         [resources addObject:@"110"];
         [products setObject:resources forKey:[NSNumber numberWithInt:3]];
-        
+        NSLog(@"RECURSOS%@",resources.description);
+        NSLog(@"PRODUCTOS%@",products.description);       
         [self eraseResources];
         
 

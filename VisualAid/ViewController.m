@@ -12,11 +12,19 @@
 
 @synthesize productButton;
 
--(IBAction) openResources
+-(IBAction) openResources:(UIButton *) sender
 {
     
     ResourceViewController *resource = [[ResourceViewController alloc] initWithNibName:@"ResourceViewController" bundle:nil];
     resource.modalTransitionStyle=UIModalTransitionStyleCoverVertical;
+    
+    ResourceManager *product = [[ResourceManager alloc]init];
+    NSLog(@"%d",sender.tag);
+    NSLog(@"%@",[product nameOfProduct:sender.tag]);
+    UIImageView *logo = (UIImageView *)[resource.view viewWithTag:99];
+    NSString *imageName = [NSString stringWithFormat:@"logo%@.png", [product nameOfProduct:sender.tag]];
+    [logo setImage:[UIImage imageNamed:imageName]];
+    resource.logo = logo;
 
 	[self presentModalViewController:resource animated:YES];
 }

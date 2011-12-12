@@ -14,9 +14,11 @@
 
     UIButton *dismissButton;
     UIButton *resourceButton;
+    UIImageView *logo;
     
 }
 
+@property (nonatomic, retain) IBOutlet UIImageView *logo;
 @property (nonatomic, retain) UIButton *dismissButton;
 @property (nonatomic, retain) UIButton *resourceButton;
 

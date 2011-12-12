@@ -9,7 +9,7 @@
 #import "ResourceViewController.h"
 
 @implementation ResourceViewController
-@synthesize dismissButton,resourceButton;
+@synthesize dismissButton,resourceButton,logo;
 
 -(IBAction) dismiss{
     [self dismissModalViewControllerAnimated:YES];
