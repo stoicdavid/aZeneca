@@ -180,80 +180,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1765AD9C1495CFB7002D8036 /* 3Onglyza */ = {
-			isa = PBXGroup;
-			children = (
-				1765AD9F1495CFD5002D8036 /* PDF */,
-				1765AD9E1495CFCE002D8036 /* Video */,
-			);
-			name = 3Onglyza;
-			sourceTree = "<group>";
-		};
-		1765AD9E1495CFCE002D8036 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		1765AD9F1495CFD5002D8036 /* PDF */ = {
-			isa = PBXGroup;
-			children = (
-				1765ADA21495D00F002D8036 /* RAEstructuraPromocionalSeguridadEficacia.pdf */,
-				1765ADA31495D00F002D8036 /* RAEstudioSeguridadEficacia.pdf */,
-				1765ADA01495CFE3002D8036 /* AVOnglyza.pdf */,
-			);
-			name = PDF;
-			sourceTree = "<group>";
-		};
-		1765ADA81495D21B002D8036 /* 4Atacand */ = {
-			isa = PBXGroup;
-			children = (
-				1765ADAB1495D24E002D8036 /* Video */,
-				1765ADAA1495D248002D8036 /* PDF */,
-			);
-			name = 4Atacand;
-			sourceTree = "<group>";
-		};
-		1765ADA91495D23F002D8036 /* 5Nexium */ = {
-			isa = PBXGroup;
-			children = (
-				1765ADAD1495D264002D8036 /* PDF */,
-				1765ADAC1495D25E002D8036 /* Video */,
-			);
-			name = 5Nexium;
-			sourceTree = "<group>";
-		};
-		1765ADAA1495D248002D8036 /* PDF */ = {
-			isa = PBXGroup;
-			children = (
-				1765ADB01495D2D4002D8036 /* AVTarjetonAtacand.pdf */,
-			);
-			name = PDF;
-			sourceTree = "<group>";
-		};
-		1765ADAB1495D24E002D8036 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		1765ADAC1495D25E002D8036 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		1765ADAD1495D264002D8036 /* PDF */ = {
-			isa = PBXGroup;
-			children = (
-				1765ADB21495D2DB002D8036 /* AVNexium2_5.pdf */,
-			);
-			name = PDF;
-			sourceTree = "<group>";
-		};
 		17FF58A71495883B0056C21F /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -402,67 +328,21 @@
 			name = Interface;
 			sourceTree = "<group>";
 		};
-		AAA3EE9D1495653E00DFFE8A /* 1Brilinta */ = {
-			isa = PBXGroup;
-			children = (
-				AAA3EEA01495656500DFFE8A /* Video */,
-				AAA3EE9E1495655600DFFE8A /* PDF */,
-			);
-			name = 1Brilinta;
-			sourceTree = "<group>";
-		};
-		AAA3EE9E1495655600DFFE8A /* PDF */ = {
+		AAF0BEA91494A6EF00CB887D /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				AAA3EEA914956A4500DFFE8A /* RAEstudioPlato.PDF */,
 				AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */,
-			);
-			name = PDF;
-			sourceTree = "<group>";
-		};
-		AAA3EEA01495656500DFFE8A /* Video */ = {
-			isa = PBXGroup;
-			children = (
 				177959FA1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 */,
 				177959FB1495CF06006AE693 /* VideoCorazon.mp4 */,
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		AAA3EEA21495658E00DFFE8A /* 2Crestor */ = {
-			isa = PBXGroup;
-			children = (
-				AAA3EEA41495659D00DFFE8A /* PDF */,
-				AAA3EEA31495659600DFFE8A /* Video */,
-			);
-			name = 2Crestor;
-			sourceTree = "<group>";
-		};
-		AAA3EEA31495659600DFFE8A /* Video */ = {
-			isa = PBXGroup;
-			children = (
 				1765ADA61495D1AF002D8036 /* FlatAZMexico_H264.mp4 */,
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		AAA3EEA41495659D00DFFE8A /* PDF */ = {
-			isa = PBXGroup;
-			children = (
 				AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */,
 				AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */,
-			);
-			name = PDF;
-			sourceTree = "<group>";
-		};
-		AAF0BEA91494A6EF00CB887D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1765ADA91495D23F002D8036 /* 5Nexium */,
-				1765ADA81495D21B002D8036 /* 4Atacand */,
-				1765AD9C1495CFB7002D8036 /* 3Onglyza */,
-				AAA3EEA21495658E00DFFE8A /* 2Crestor */,
-				AAA3EE9D1495653E00DFFE8A /* 1Brilinta */,
+				1765ADA21495D00F002D8036 /* RAEstructuraPromocionalSeguridadEficacia.pdf */,
+				1765ADA31495D00F002D8036 /* RAEstudioSeguridadEficacia.pdf */,
+				1765ADA01495CFE3002D8036 /* AVOnglyza.pdf */,
+				1765ADB01495D2D4002D8036 /* AVTarjetonAtacand.pdf */,
+				1765ADB21495D2DB002D8036 /* AVNexium2_5.pdf */,
 			);
 			name = Products;
 			sourceTree = "<group>";
