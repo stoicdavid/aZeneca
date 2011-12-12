@@ -43,7 +43,7 @@
 
 
 - (void)previewControllerWillDismiss:(QLPreviewController *)controller {
-    [controller presentingViewController].view.frame = CGRectMake(0, 0, 1024, 768);
+    [controller presentingViewController].view.frame = CGRectMake(0, 20, 1024, 768);
 }
 
 - (void)dealloc
