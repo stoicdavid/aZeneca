@@ -60,8 +60,8 @@
 		AA30912114948FCB008C4C86 /* logoSeroquel.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30910F14948FCB008C4C86 /* logoSeroquel.png */; };
 		AA30912214948FCB008C4C86 /* logoSymbicort.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30911014948FCB008C4C86 /* logoSymbicort.png */; };
 		AA30912314948FCB008C4C86 /* logoVannair.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30911114948FCB008C4C86 /* logoVannair.png */; };
+		AA7AE8531495E7ED00134A89 /* RAEstudioPlato.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8521495E7ED00134A89 /* RAEstudioPlato.pdf */; };
 		AAA3EEA814956A3A00DFFE8A /* AVBrilinta.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */; };
-		AAA3EEAA14956A4500DFFE8A /* RAEstudioPlato.PDF in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEA914956A4500DFFE8A /* RAEstudioPlato.PDF */; };
 		AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */; };
 		AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */; };
 		AAA3EEC9149588D100DFFE8A /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3EEC8149588D100DFFE8A /* ResourceManager.m */; };
@@ -137,8 +137,8 @@
 		AA30910F14948FCB008C4C86 /* logoSeroquel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoSeroquel.png; sourceTree = "<group>"; };
 		AA30911014948FCB008C4C86 /* logoSymbicort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoSymbicort.png; sourceTree = "<group>"; };
 		AA30911114948FCB008C4C86 /* logoVannair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoVannair.png; sourceTree = "<group>"; };
+		AA7AE8521495E7ED00134A89 /* RAEstudioPlato.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RAEstudioPlato.pdf; sourceTree = "<group>"; };
 		AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVBrilinta.pdf; sourceTree = "<group>"; };
-		AAA3EEA914956A4500DFFE8A /* RAEstudioPlato.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RAEstudioPlato.PDF; sourceTree = "<group>"; };
 		AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOEtarjetonATORVASTATINA.pdf; sourceTree = "<group>"; };
 		AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVOEtarjetonesCOMBINACION.pdf; sourceTree = "<group>"; };
 		AAA3EEC7149588D100DFFE8A /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
@@ -332,7 +332,7 @@
 		AAA3EE9E1495655600DFFE8A /* PDF */ = {
 			isa = PBXGroup;
 			children = (
-				AAA3EEA914956A4500DFFE8A /* RAEstudioPlato.PDF */,
+				AA7AE8521495E7ED00134A89 /* RAEstudioPlato.pdf */,
 				AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */,
 			);
 			name = PDF;
@@ -481,13 +481,13 @@
 				AAF0BE9F14949B3400CB887D /* ResourceViewController.xib in Resources */,
 				AAF0BFA5149561B600CB887D /* HelperViewController.xib in Resources */,
 				AAA3EEA814956A3A00DFFE8A /* AVBrilinta.pdf in Resources */,
-				AAA3EEAA14956A4500DFFE8A /* RAEstudioPlato.PDF in Resources */,
 				AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */,
 				AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */,
 				AAA3EEE61495B97400DFFE8A /* TicagrelorMecanismodeAccion.mp4 in Resources */,
 				AAA3EEE71495B97400DFFE8A /* VideoCorazon.mp4 in Resources */,
 				AAA3EEE91495B98200DFFE8A /* FlatAZMexico_H264.mp4 in Resources */,
 				AAA3EEEB1495B98B00DFFE8A /* FlatAZMexico_02.mp4 in Resources */,
+				AA7AE8531495E7ED00134A89 /* RAEstudioPlato.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

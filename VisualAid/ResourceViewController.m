@@ -26,7 +26,6 @@
     
     UIImageView *logo2 = (UIImageView *)[list.view viewWithTag:99];
     NSString *imageName = [NSString stringWithFormat:@"logo%@.png", [manager nameOfProduct:self.productType]];
-    NSLog(imageName);
     [logo2 setImage:[UIImage imageNamed:imageName] ];
 
     

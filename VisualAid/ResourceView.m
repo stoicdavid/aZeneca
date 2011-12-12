@@ -46,7 +46,7 @@
 
 - (void) invokeControllerViewPush
 {
-    NSLog(fileName);
+
     [localResponder performSelector:@selector(pushResourceViewControllerWithFile:) withObject:fileName];
 }
 
