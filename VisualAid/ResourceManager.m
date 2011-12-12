@@ -104,7 +104,7 @@
         
         
         
-        [resources addObject:@"Nexium 2.5"];
+        [resources addObject:@"Nexium2.5"];
         [resources addObject:aidsD];
         [resources addObject:@"100"];
         [products setObject:resources forKey:[NSNumber numberWithInt:5]];
