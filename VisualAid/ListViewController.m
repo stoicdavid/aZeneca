@@ -12,7 +12,7 @@
 #import "HelperViewController.h"
 
 @implementation ListViewController
-@synthesize dismissButton,table, resourceList, fileType, productType;
+@synthesize dismissButton,table, resourceList, fileType, productType,logo;
 
 -(IBAction) dismiss{
     [self dismissModalViewControllerAnimated:YES];
@@ -103,6 +103,8 @@
         self.resourceList = [[NSMutableDictionary alloc ] initWithDictionary:[manager extrasByProduct:self.productType]];
 
     } else if(tag == 3) {
+        NSLog(@"%d",productType);
+        
         self.resourceList = [[NSMutableDictionary alloc ] initWithDictionary:[manager videosByProduct:self.productType]];
         resource = @"botonVideos.png";
                 fileType = video;

@@ -15,7 +15,7 @@
     [self dismissModalViewControllerAnimated:YES];
 }
 
--(IBAction) listResources:(id) sender {
+-(IBAction) listResources:(UIButton *) sender {
     ListViewController *list = [[ListViewController alloc] initWithNibName:@"ListViewController" bundle:nil];
     
     ResourceManager *manager = [[ResourceManager alloc]init];

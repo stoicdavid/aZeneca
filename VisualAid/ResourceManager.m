@@ -42,7 +42,7 @@
 
         [resources addObject:@"111"];
         [products setObject:resources forKey:[NSNumber numberWithInt:1]];
-        NSLog([[resources objectAtIndex:1] description]);
+
         [self eraseResources];
 
         
