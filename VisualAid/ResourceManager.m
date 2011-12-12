@@ -124,7 +124,7 @@
         extrasD = [[NSDictionary alloc] initWithObjects:extras forKeys:extrasK];
         videosD = [[NSDictionary alloc] initWithObjects:videos forKeys:videosK];
         
-        [resources addObject:@"Nexium Mups"];
+        [resources addObject:@"NexiumMups"];
         [resources addObject:aidsD];
         [resources addObject:extrasD];
         [resources addObject:videosD];
