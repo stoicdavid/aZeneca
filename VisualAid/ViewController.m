@@ -17,6 +17,7 @@
     
     ResourceViewController *resource = [[ResourceViewController alloc] initWithNibName:@"ResourceViewController" bundle:nil];
     resource.modalTransitionStyle=UIModalTransitionStyleCoverVertical;
+
 	[self presentModalViewController:resource animated:YES];
 }
 

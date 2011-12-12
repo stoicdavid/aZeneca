@@ -15,11 +15,14 @@
     [self dismissModalViewControllerAnimated:YES];
 }
 
--(IBAction) listResources{
+-(IBAction) listResources:(id) sender {
     ListViewController *list = [[ListViewController alloc] initWithNibName:@"ListViewController" bundle:nil];
     list.modalTransitionStyle=UIModalTransitionStyleCrossDissolve;
+
+    [list setResourceIconForButtonTag:[sender tag]];
 	[self presentModalViewController:list animated:YES];
 }
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

@@ -7,10 +7,10 @@
 //
 
 #import "ListViewController.h"
-#import "HelperViewController.h"
+#import "ResourceView.h"
 
 @implementation ListViewController
-@synthesize dismissButton,popOver,table,resource;
+@synthesize dismissButton,table, resourceList;
 
 -(IBAction) dismiss{
     [self dismissModalViewControllerAnimated:YES];
@@ -21,8 +21,9 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
-        
+        self.resourceList = [NSMutableDictionary dictionary];
+        [self.resourceList setObject:@"TicagrelorMecanismodeAccion" forKey:@"Ticagrelor Mecanismo de Acción"];
+        [self.resourceList setObject:@"VideoCorazon" forKey:@"Video Corazón"];
     }
     return self;
 }
@@ -40,49 +41,41 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-
-
-            
-        
-
-    
-//    if (self.popOverController.isPopoverVisible)
-//    {
-//        [self.popOverController dismissPopoverAnimated:YES];
-//    } else
-//    {
-//        [self.popOverController presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
-//        
-//    }
-//
+    int yPos = 200;
+    for (NSString* key in [resourceList allKeys]) {
+        ResourceView *resourceView = [[ResourceView alloc] initWithFrame:CGRectMake(300, yPos, 500, 50) 
+                                                      withLocalResponder:self 
+                                                               withTitle:key 
+                                                             andFileName:[resourceList objectForKey:key]];
+        [self.view addSubview:resourceView];
+        yPos += 60;
+    }
     
 }
 
--(void) viewWillAppear:(BOOL)animated{
-    CGSize size = CGSizeMake(320, 480); // size of view in popover
-    self.contentSizeForViewInPopover = size;
-    [super viewWillAppear:animated];
+- (void) pushResourceViewControllerWithFile:(NSString*)file
+{
+    VideoViewController *video = [[VideoViewController alloc] initWithFrame:self.view.frame withFileToPlay:file];
+    [self presentModalViewController:video animated:YES];
 }
-- (void) viewDidAppear:(BOOL)animated{
-    PDFTableViewController *primer = [[PDFTableViewController alloc] initWithStyle:UITableViewStylePlain];
-    primer.view.frame = CGRectMake(33, 100, 300, 100);
-    primer.contentSizeForViewInPopover = CGSizeMake(300.0,200 );
-    self.popOver = [[[UIPopoverController alloc] 
-                     initWithContentViewController:primer] autorelease]; 
 
-    [primer release];
+- (void) setResourceIconForButtonTag:(int)tag
+{
+    NSString *resource = Nil;
     
+    if (tag == 1) {
+        resource = @"botonVideos.png";
+
+    } else if(tag == 2) {
+        resource = @"botonMaterialesExtra.png";
+
+    } else if(tag == 3) {
+        resource = @"botonAyudaVisual.png";
+    }
     
-    //        
-    //        
-    //       [self.view addSubview:primer.view];
-    
-    
-    
-    //
-    //if (self.view.window != nil)
-    [self.popOver presentPopoverFromRect:CGRectMake(33, 100, 200, 100) inView:resource permittedArrowDirections:UIPopoverArrowDirectionLeft animated:YES];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:resource]];
+    [imageView setFrame:CGRectMake(33, 203, imageView.frame.size.width, imageView.frame.size.height)];
+    [self.view addSubview:imageView];
 }
 
 - (void)viewDidUnload

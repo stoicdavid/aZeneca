@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17FF58A4149581510056C21F /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FF58A3149581510056C21F /* VideoViewController.m */; };
+		17FF58A6149583E20056C21F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FF58A5149583E20056C21F /* MediaPlayer.framework */; };
+		17FF58AD149588DC0056C21F /* ResourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FF58AC149588DC0056C21F /* ResourceView.m */; };
 		AA038D22149495CC00667A09 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA038D20149495CC00667A09 /* ListViewController.m */; };
 		AA038D23149495CC00667A09 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA038D21149495CC00667A09 /* ListViewController.xib */; };
 		AA3090B214948BC7008C4C86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3090B114948BC7008C4C86 /* UIKit.framework */; };
@@ -65,13 +68,17 @@
 		AAA3EEC9149588D100DFFE8A /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3EEC8149588D100DFFE8A /* ResourceManager.m */; };
 		AAF0BE9F14949B3400CB887D /* ResourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */; };
 		AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BE9E14949B3400CB887D /* ResourceViewController.m */; };
-		AAF0BF601494AC2400CB887D /* PDFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BF5F1494AC2400CB887D /* PDFTableViewController.m */; };
 		AAF0BF9D1495606700CB887D /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF0BF9C1495606700CB887D /* QuickLook.framework */; };
 		AAF0BFA4149561B600CB887D /* HelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BFA2149561B500CB887D /* HelperViewController.m */; };
 		AAF0BFA5149561B600CB887D /* HelperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BFA3149561B500CB887D /* HelperViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17FF58A2149581510056C21F /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		17FF58A3149581510056C21F /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		17FF58A5149583E20056C21F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		17FF58AB149588DC0056C21F /* ResourceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceView.h; sourceTree = "<group>"; };
+		17FF58AC149588DC0056C21F /* ResourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceView.m; sourceTree = "<group>"; };
 		AA038D1F149495CC00667A09 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		AA038D20149495CC00667A09 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		AA038D21149495CC00667A09 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
@@ -138,8 +145,6 @@
 		AAF0BE9C14949B3400CB887D /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
 		AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourceViewController.xib; sourceTree = "<group>"; };
 		AAF0BE9E14949B3400CB887D /* ResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceViewController.m; sourceTree = "<group>"; };
-		AAF0BF5E1494AC2400CB887D /* PDFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTableViewController.h; sourceTree = "<group>"; };
-		AAF0BF5F1494AC2400CB887D /* PDFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFTableViewController.m; sourceTree = "<group>"; };
 		AAF0BF9C1495606700CB887D /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		AAF0BFA1149561B500CB887D /* HelperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperViewController.h; sourceTree = "<group>"; };
 		AAF0BFA2149561B500CB887D /* HelperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperViewController.m; sourceTree = "<group>"; };
@@ -151,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FF58A6149583E20056C21F /* MediaPlayer.framework in Frameworks */,
 				AAF0BF9D1495606700CB887D /* QuickLook.framework in Frameworks */,
 				AA3090B214948BC7008C4C86 /* UIKit.framework in Frameworks */,
 				AA3090B414948BC7008C4C86 /* Foundation.framework in Frameworks */,
@@ -161,9 +167,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17FF58A1149581390056C21F /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				17FF58A2149581510056C21F /* VideoViewController.h */,
+				17FF58A3149581510056C21F /* VideoViewController.m */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		17FF58A71495883B0056C21F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17FF58AB149588DC0056C21F /* ResourceView.h */,
+				17FF58AC149588DC0056C21F /* ResourceView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		AA3090A214948BC7008C4C86 = {
 			isa = PBXGroup;
 			children = (
+				17FF58A5149583E20056C21F /* MediaPlayer.framework */,
 				AA3090B714948BC7008C4C86 /* VisualAid */,
 				AA3090B014948BC7008C4C86 /* Frameworks */,
 				AA3090AE14948BC7008C4C86 /* Products */,
@@ -192,6 +217,8 @@
 		AA3090B714948BC7008C4C86 /* VisualAid */ = {
 			isa = PBXGroup;
 			children = (
+				17FF58A71495883B0056C21F /* Views */,
+				17FF58A1149581390056C21F /* Video */,
 				AA3090CE14948EA5008C4C86 /* Assets */,
 				AA3090C014948BC7008C4C86 /* AppDelegate.h */,
 				AA3090C114948BC7008C4C86 /* AppDelegate.m */,
@@ -206,7 +233,6 @@
 				AAA3EEC7149588D100DFFE8A /* ResourceManager.h */,
 				AAA3EEC8149588D100DFFE8A /* ResourceManager.m */,
 				AA038D21149495CC00667A09 /* ListViewController.xib */,
-				AAF0BF5D1494AAB100CB887D /* TableView */,
 				AA3090B814948BC7008C4C86 /* Supporting Files */,
 				AAF0BFA1149561B500CB887D /* HelperViewController.h */,
 				AAF0BFA2149561B500CB887D /* HelperViewController.m */,
@@ -358,15 +384,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAF0BF5D1494AAB100CB887D /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				AAF0BF5E1494AC2400CB887D /* PDFTableViewController.h */,
-				AAF0BF5F1494AC2400CB887D /* PDFTableViewController.m */,
-			);
-			name = TableView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -483,9 +500,10 @@
 				AA3090C514948BC7008C4C86 /* ViewController.m in Sources */,
 				AA038D22149495CC00667A09 /* ListViewController.m in Sources */,
 				AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */,
-				AAF0BF601494AC2400CB887D /* PDFTableViewController.m in Sources */,
 				AAF0BFA4149561B600CB887D /* HelperViewController.m in Sources */,
 				AAA3EEC9149588D100DFFE8A /* ResourceManager.m in Sources */,
+				17FF58A4149581510056C21F /* VideoViewController.m in Sources */,
+				17FF58AD149588DC0056C21F /* ResourceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

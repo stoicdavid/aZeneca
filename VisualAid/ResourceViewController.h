@@ -21,7 +21,7 @@
 @property (nonatomic, retain) UIButton *resourceButton;
 
 -(IBAction) dismiss;
--(IBAction) listResources;
+-(IBAction) listResources:(id) sender;
 
 
 

@@ -7,23 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PDFTableViewController.h"
+#import "VideoViewController.h"
 
 @interface ListViewController : UIViewController
 {
     UIButton *dismissButton;
-    UIPopoverController *popOver;
     UITableView *table;
-    UIButton *resource;
+    NSMutableDictionary *resourceList;
 }
 
 @property (nonatomic, retain) UIButton *dismissButton;
-@property (nonatomic, retain) IBOutlet UIButton *resource;
-@property (nonatomic, retain) UIPopoverController *popOver;
 @property (nonatomic, retain) IBOutlet UITableView *table;
+@property (nonatomic, retain) NSMutableDictionary *resourceList;
 
 
 -(IBAction) dismiss;
 
+- (void) setResourceIconForButtonTag:(int)tag;
+- (void) pushResourceViewControllerWithFile:(NSString*)file;
 
 @end
