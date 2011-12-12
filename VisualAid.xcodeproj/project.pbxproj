@@ -107,6 +107,13 @@
 		AA7AE8F5149617A800134A89 /* Rutacorticoides.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8F4149617A800134A89 /* Rutacorticoides.mp4 */; };
 		AA7AE8F8149617B100134A89 /* TicagrelorMecanismodeAccion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8F6149617B100134A89 /* TicagrelorMecanismodeAccion.mp4 */; };
 		AA7AE8F9149617B100134A89 /* VideoCorazon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8F7149617B100134A89 /* VideoCorazon.mp4 */; };
+		AA9E7F1A1496BDC700AA868C /* AnuncioSalvemos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F151496BDC700AA868C /* AnuncioSalvemos.pdf */; };
+		AA9E7F1B1496BDC700AA868C /* FolletoRiesgoCardio.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F161496BDC700AA868C /* FolletoRiesgoCardio.pdf */; };
+		AA9E7F1C1496BDC700AA868C /* STANDLC2VITAMEDICA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F171496BDC700AA868C /* STANDLC2VITAMEDICA.pdf */; };
+		AA9E7F1D1496BDC700AA868C /* STANDLCVITAMEDICA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F181496BDC700AA868C /* STANDLCVITAMEDICA.pdf */; };
+		AA9E7F1E1496BDC700AA868C /* TarjetonSELOKENSELOPRES.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F191496BDC700AA868C /* TarjetonSELOKENSELOPRES.pdf */; };
+		AA9E7F201496BFFF00AA868C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F1F1496BFFF00AA868C /* Icon.png */; };
+		AA9E7F221496C1D800AA868C /* CampanaTV.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F211496C1D800AA868C /* CampanaTV.pdf */; };
 		AAA3EEC9149588D100DFFE8A /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3EEC8149588D100DFFE8A /* ResourceManager.m */; };
 		AAF0BE9F14949B3400CB887D /* ResourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF0BE9D14949B3400CB887D /* ResourceViewController.xib */; };
 		AAF0BEA014949B3400CB887D /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BE9E14949B3400CB887D /* ResourceViewController.m */; };
@@ -122,7 +129,7 @@
 		AA038D1F149495CC00667A09 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		AA038D20149495CC00667A09 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		AA038D21149495CC00667A09 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
-		AA3090AD14948BC7008C4C86 /* VisualAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3090AD14948BC7008C4C86 /* AVI Institucionales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVI Institucionales.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3090B114948BC7008C4C86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA3090B314948BC7008C4C86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA3090B514948BC7008C4C86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -223,6 +230,13 @@
 		AA7AE8F4149617A800134A89 /* Rutacorticoides.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rutacorticoides.mp4; sourceTree = "<group>"; };
 		AA7AE8F6149617B100134A89 /* TicagrelorMecanismodeAccion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TicagrelorMecanismodeAccion.mp4; sourceTree = "<group>"; };
 		AA7AE8F7149617B100134A89 /* VideoCorazon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VideoCorazon.mp4; sourceTree = "<group>"; };
+		AA9E7F151496BDC700AA868C /* AnuncioSalvemos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AnuncioSalvemos.pdf; sourceTree = "<group>"; };
+		AA9E7F161496BDC700AA868C /* FolletoRiesgoCardio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FolletoRiesgoCardio.pdf; sourceTree = "<group>"; };
+		AA9E7F171496BDC700AA868C /* STANDLC2VITAMEDICA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = STANDLC2VITAMEDICA.pdf; sourceTree = "<group>"; };
+		AA9E7F181496BDC700AA868C /* STANDLCVITAMEDICA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = STANDLCVITAMEDICA.pdf; sourceTree = "<group>"; };
+		AA9E7F191496BDC700AA868C /* TarjetonSELOKENSELOPRES.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonSELOKENSELOPRES.pdf; sourceTree = "<group>"; };
+		AA9E7F1F1496BFFF00AA868C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AA9E7F211496C1D800AA868C /* CampanaTV.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CampanaTV.pdf; sourceTree = "<group>"; };
 		AAA3EEC7149588D100DFFE8A /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
 		AAA3EEC8149588D100DFFE8A /* ResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceManager.m; sourceTree = "<group>"; };
 		AAF0BE9C14949B3400CB887D /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
@@ -272,7 +286,7 @@
 		AA3090AE14948BC7008C4C86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA3090AD14948BC7008C4C86 /* VisualAid.app */,
+				AA3090AD14948BC7008C4C86 /* AVI Institucionales.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -365,6 +379,7 @@
 			isa = PBXGroup;
 			children = (
 				AA30910014948FCB008C4C86 /* logoArimidex.png */,
+				AA9E7F1F1496BFFF00AA868C /* Icon.png */,
 				AA30910114948FCB008C4C86 /* logoAtacand.png */,
 				AA30910214948FCB008C4C86 /* logoBrilinta.png */,
 				AA30910314948FCB008C4C86 /* logoCasodex_Zoladex.png */,
@@ -377,6 +392,7 @@
 				AA30910A14948FCB008C4C86 /* logoNexiumMups.png */,
 				AA30910B14948FCB008C4C86 /* logoOnglyza.png */,
 				AA30910C14948FCB008C4C86 /* logoPulmicort.png */,
+				AA9E7F211496C1D800AA868C /* CampanaTV.pdf */,
 				AA30910D14948FCB008C4C86 /* logoRhinocort.png */,
 				AA30910E14948FCB008C4C86 /* logoSalvemosElCorazon.png */,
 				AA30910F14948FCB008C4C86 /* logoSeroquel.png */,
@@ -409,6 +425,11 @@
 				AA7AE8B01496125800134A89 /* AVNexium2_5.pdf */,
 				AA7AE8CE149612B300134A89 /* TarjetonMerrem.pdf */,
 				AA7AE8D41496137100134A89 /* AVCasodex_Zoladex.pdf */,
+				AA9E7F151496BDC700AA868C /* AnuncioSalvemos.pdf */,
+				AA9E7F161496BDC700AA868C /* FolletoRiesgoCardio.pdf */,
+				AA9E7F171496BDC700AA868C /* STANDLC2VITAMEDICA.pdf */,
+				AA9E7F181496BDC700AA868C /* STANDLCVITAMEDICA.pdf */,
+				AA9E7F191496BDC700AA868C /* TarjetonSELOKENSELOPRES.pdf */,
 				AA7AE89F1496121700134A89 /* AVBrilinta.pdf */,
 				AA7AE8D21496135B00134A89 /* ArimidexBARNIZREGISTRO.pdf */,
 				AA7AE8A81496124200134A89 /* AVOnglyza.pdf */,
@@ -469,7 +490,7 @@
 			);
 			name = VisualAid;
 			productName = VisualAid;
-			productReference = AA3090AD14948BC7008C4C86 /* VisualAid.app */;
+			productReference = AA3090AD14948BC7008C4C86 /* AVI Institucionales.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -596,6 +617,13 @@
 				AA7AE8F5149617A800134A89 /* Rutacorticoides.mp4 in Resources */,
 				AA7AE8F8149617B100134A89 /* TicagrelorMecanismodeAccion.mp4 in Resources */,
 				AA7AE8F9149617B100134A89 /* VideoCorazon.mp4 in Resources */,
+				AA9E7F1A1496BDC700AA868C /* AnuncioSalvemos.pdf in Resources */,
+				AA9E7F1B1496BDC700AA868C /* FolletoRiesgoCardio.pdf in Resources */,
+				AA9E7F1C1496BDC700AA868C /* STANDLC2VITAMEDICA.pdf in Resources */,
+				AA9E7F1D1496BDC700AA868C /* STANDLCVITAMEDICA.pdf in Resources */,
+				AA9E7F1E1496BDC700AA868C /* TarjetonSELOKENSELOPRES.pdf in Resources */,
+				AA9E7F201496BFFF00AA868C /* Icon.png in Resources */,
+				AA9E7F221496C1D800AA868C /* CampanaTV.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,7 +718,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VisualAid/VisualAid-Prefix.pch";
 				INFOPLIST_FILE = "VisualAid/VisualAid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AVI Institucionales";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -701,7 +729,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VisualAid/VisualAid-Prefix.pch";
 				INFOPLIST_FILE = "VisualAid/VisualAid-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AVI Institucionales";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

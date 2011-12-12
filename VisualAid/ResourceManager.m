@@ -116,9 +116,9 @@
         
         aids = [[NSArray alloc] initWithObjects:@"AVNexiumMups", nil];
         aidsK = [[NSArray alloc] initWithObjects:@"Nexium Mups", nil];        
-        extras = [[NSArray alloc] initWithObjects:@"RACampanaTV",@"RADipticoRIMA",@"RATarjetonAtlasparaiPad",@"RATarjetonNexiumMupsInstitucionales",@"RATripticoRIMA", nil];
+        extras = [[NSArray alloc] initWithObjects:@"CampanaTV",@"RADipticoRIMA",@"RATarjetonAtlasparaiPad",@"RATarjetonNexiumMupsInstitucionales",@"RATripticoRIMA", nil];
         extrasK = [[NSArray alloc] initWithObjects:@"Campaña TV",@"Díptico RIMA",@"Tarjetón Atlas para iPad",@"Tarjetón Nexium Mups Institucionales",@"Tríptico RIMA", nil] ;        
-        videos = [[NSArray alloc] initWithObjects:@"ComercialTVNexium.mp4", nil];
+        videos = [[NSArray alloc] initWithObjects:@"ComercialTVNexium", nil];
         videosK = [[NSArray alloc] initWithObjects:@"Comercial TV Nexium", nil] ;        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         extrasD = [[NSDictionary alloc] initWithObjects:extras forKeys:extrasK];
