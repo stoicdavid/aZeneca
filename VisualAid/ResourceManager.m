@@ -323,13 +323,13 @@
         
         //Fasiodex
         
-        aids = [[NSArray alloc] initWithObjects:@"AVFasiodex", nil];
-        aidsK = [[NSArray alloc] initWithObjects:@"Fasiodex", nil];        
+        aids = [[NSArray alloc] initWithObjects:@"AVFaslodex", nil];
+        aidsK = [[NSArray alloc] initWithObjects:@"Faslodex", nil];        
         
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         
         
-        [resources addObject:@"Fasiodex"];
+        [resources addObject:@"Faslodex"];
         [resources addObject:aidsD];
         
         
