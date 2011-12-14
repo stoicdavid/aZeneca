@@ -530,6 +530,41 @@
 			};
 			name = Release;
 		};
+		AA87DFED1496F39E0027BAD3 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		AA87DFEE1496F39E0027BAD3 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: David Rodriguez";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: David Rodriguez";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VisualAid/VisualAid-Prefix.pch";
+				INFOPLIST_FILE = "VisualAid/VisualAid-Info.plist";
+				PRODUCT_NAME = "AVI Seroquel";
+				PROVISIONING_PROFILE = "F3EB3183-C86C-42F1-A388-2A06A1C59C24";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F3EB3183-C86C-42F1-A388-2A06A1C59C24";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -538,6 +573,7 @@
 			buildConfigurations = (
 				AA3090C914948BC7008C4C86 /* Debug */,
 				AA3090CA14948BC7008C4C86 /* Release */,
+				AA87DFED1496F39E0027BAD3 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -547,6 +583,7 @@
 			buildConfigurations = (
 				AA3090CC14948BC7008C4C86 /* Debug */,
 				AA3090CD14948BC7008C4C86 /* Release */,
+				AA87DFEE1496F39E0027BAD3 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
