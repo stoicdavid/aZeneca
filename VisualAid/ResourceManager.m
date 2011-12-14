@@ -85,7 +85,7 @@
         //Atacand
         
         aids = [[NSArray alloc] initWithObjects:@"AVTarjetonAtacand", nil];
-        aidsK = [[NSArray alloc] initWithObjects:@"Tarjeton Atacand", nil];        
+        aidsK = [[NSArray alloc] initWithObjects:@"Tarjetón Atacand", nil];        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         
         
@@ -271,16 +271,16 @@
         //Armidex
         aids = [[NSArray alloc] initWithObjects:@"AVArimidex", nil];
         aidsK = [[NSArray alloc] initWithObjects:@"Arimidex", nil];        
-        extras = [[NSArray alloc] initWithObjects:@"ArimidexBARNIZREGISTRO", nil];
-        extrasK = [[NSArray alloc] initWithObjects:@"Arimidex BARNIZ REGISTRO", nil] ;        
+        //extras = [[NSArray alloc] initWithObjects:@"ArimidexBARNIZREGISTRO", nil];
+        //extrasK = [[NSArray alloc] initWithObjects:@"Arimidex BARNIZ REGISTRO", nil] ;        
         aidsD = [[NSDictionary alloc] initWithObjects:aids forKeys:aidsK];
         extrasD = [[NSDictionary alloc] initWithObjects:extras forKeys:extrasK];
         
         
         [resources addObject:@"Arimidex"];
         [resources addObject:aidsD];
-        [resources addObject:extrasD];
-        [resources addObject:@"110"];
+        //[resources addObject:extrasD];
+        [resources addObject:@"100"];
         [products setObject:resources forKey:[NSNumber numberWithInt:14]];
         
         [self eraseResources];

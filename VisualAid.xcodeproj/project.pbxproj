@@ -13,12 +13,25 @@
 		1765ADA71495D1AF002D8036 /* FlatAZMexico_H264.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1765ADA61495D1AF002D8036 /* FlatAZMexico_H264.mp4 */; };
 		1765ADB11495D2D4002D8036 /* AVTarjetonAtacand.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1765ADB01495D2D4002D8036 /* AVTarjetonAtacand.pdf */; };
 		1765ADB31495D2DB002D8036 /* AVNexium2_5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1765ADB21495D2DB002D8036 /* AVNexium2_5.pdf */; };
-		177959FC1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 177959FA1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 */; };
-		177959FD1495CF06006AE693 /* VideoCorazon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 177959FB1495CF06006AE693 /* VideoCorazon.mp4 */; };
 		17FF58A6149583E20056C21F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FF58A5149583E20056C21F /* MediaPlayer.framework */; };
 		17FF58AD149588DC0056C21F /* ResourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FF58AC149588DC0056C21F /* ResourceView.m */; };
 		AA038D22149495CC00667A09 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA038D20149495CC00667A09 /* ListViewController.m */; };
 		AA038D23149495CC00667A09 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA038D21149495CC00667A09 /* ListViewController.xib */; };
+		AA1B63DA14987FF70077DE91 /* TarjetonPresentacionesPulmicort.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63D914987FF70077DE91 /* TarjetonPresentacionesPulmicort.pdf */; };
+		AA1B63DC149880000077DE91 /* TarjetonPresentacionesRhinocort.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63DB149880000077DE91 /* TarjetonPresentacionesRhinocort.pdf */; };
+		AA1B63E11498800E0077DE91 /* TarjetonAtlasiPad(Respiratorio).pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63DD1498800E0077DE91 /* TarjetonAtlasiPad(Respiratorio).pdf */; };
+		AA1B63E21498800E0077DE91 /* TarjetonPrecios(VannairSimbicort).pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63DE1498800E0077DE91 /* TarjetonPrecios(VannairSimbicort).pdf */; };
+		AA1B63E31498800E0077DE91 /* TarjetonpresentacionesSymbicort.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63DF1498800E0077DE91 /* TarjetonpresentacionesSymbicort.pdf */; };
+		AA1B63E41498800E0077DE91 /* TarjetonSymbicortInstitucionales.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63E01498800E0077DE91 /* TarjetonSymbicortInstitucionales.pdf */; };
+		AA1B63E61498803B0077DE91 /* Budesonida.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63E51498803B0077DE91 /* Budesonida.mp4 */; };
+		AA1B63E8149880440077DE91 /* B2agonista.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63E7149880440077DE91 /* B2agonista.mp4 */; };
+		AA1B63EA1498804E0077DE91 /* corticoidesinhalados.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63E91498804E0077DE91 /* corticoidesinhalados.mp4 */; };
+		AA1B63ED1498805A0077DE91 /* Mecanismocorticoides.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63EB1498805A0077DE91 /* Mecanismocorticoides.mp4 */; };
+		AA1B63EE1498805A0077DE91 /* mecanismoSymbicort.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63EC1498805A0077DE91 /* mecanismoSymbicort.mp4 */; };
+		AA1B63F0149880620077DE91 /* Rutacorticoides.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63EF149880620077DE91 /* Rutacorticoides.mp4 */; };
+		AA1B63F4149880780077DE91 /* TarjetonAtlas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63F1149880780077DE91 /* TarjetonAtlas.pdf */; };
+		AA1B63F5149880780077DE91 /* TarjetonPrecios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63F2149880780077DE91 /* TarjetonPrecios.pdf */; };
+		AA1B63F6149880780077DE91 /* TarjetonPresentacionesVannair.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B63F3149880780077DE91 /* TarjetonPresentacionesVannair.pdf */; };
 		AA3090B214948BC7008C4C86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3090B114948BC7008C4C86 /* UIKit.framework */; };
 		AA3090B414948BC7008C4C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3090B314948BC7008C4C86 /* Foundation.framework */; };
 		AA3090B614948BC7008C4C86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3090B514948BC7008C4C86 /* CoreGraphics.framework */; };
@@ -88,14 +101,27 @@
 		1765ADA61495D1AF002D8036 /* FlatAZMexico_H264.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlatAZMexico_H264.mp4; sourceTree = "<group>"; };
 		1765ADB01495D2D4002D8036 /* AVTarjetonAtacand.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVTarjetonAtacand.pdf; sourceTree = "<group>"; };
 		1765ADB21495D2DB002D8036 /* AVNexium2_5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVNexium2_5.pdf; sourceTree = "<group>"; };
-		177959FA1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TicagrelorMecanismodeAccion.mp4; sourceTree = "<group>"; };
-		177959FB1495CF06006AE693 /* VideoCorazon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VideoCorazon.mp4; sourceTree = "<group>"; };
 		17FF58A5149583E20056C21F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		17FF58AB149588DC0056C21F /* ResourceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceView.h; sourceTree = "<group>"; };
 		17FF58AC149588DC0056C21F /* ResourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceView.m; sourceTree = "<group>"; };
 		AA038D1F149495CC00667A09 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		AA038D20149495CC00667A09 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		AA038D21149495CC00667A09 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		AA1B63D914987FF70077DE91 /* TarjetonPresentacionesPulmicort.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonPresentacionesPulmicort.pdf; sourceTree = "<group>"; };
+		AA1B63DB149880000077DE91 /* TarjetonPresentacionesRhinocort.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonPresentacionesRhinocort.pdf; sourceTree = "<group>"; };
+		AA1B63DD1498800E0077DE91 /* TarjetonAtlasiPad(Respiratorio).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TarjetonAtlasiPad(Respiratorio).pdf"; sourceTree = "<group>"; };
+		AA1B63DE1498800E0077DE91 /* TarjetonPrecios(VannairSimbicort).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TarjetonPrecios(VannairSimbicort).pdf"; sourceTree = "<group>"; };
+		AA1B63DF1498800E0077DE91 /* TarjetonpresentacionesSymbicort.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonpresentacionesSymbicort.pdf; sourceTree = "<group>"; };
+		AA1B63E01498800E0077DE91 /* TarjetonSymbicortInstitucionales.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonSymbicortInstitucionales.pdf; sourceTree = "<group>"; };
+		AA1B63E51498803B0077DE91 /* Budesonida.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Budesonida.mp4; sourceTree = "<group>"; };
+		AA1B63E7149880440077DE91 /* B2agonista.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = B2agonista.mp4; sourceTree = "<group>"; };
+		AA1B63E91498804E0077DE91 /* corticoidesinhalados.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = corticoidesinhalados.mp4; sourceTree = "<group>"; };
+		AA1B63EB1498805A0077DE91 /* Mecanismocorticoides.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mecanismocorticoides.mp4; sourceTree = "<group>"; };
+		AA1B63EC1498805A0077DE91 /* mecanismoSymbicort.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mecanismoSymbicort.mp4; sourceTree = "<group>"; };
+		AA1B63EF149880620077DE91 /* Rutacorticoides.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rutacorticoides.mp4; sourceTree = "<group>"; };
+		AA1B63F1149880780077DE91 /* TarjetonAtlas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonAtlas.pdf; sourceTree = "<group>"; };
+		AA1B63F2149880780077DE91 /* TarjetonPrecios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonPrecios.pdf; sourceTree = "<group>"; };
+		AA1B63F3149880780077DE91 /* TarjetonPresentacionesVannair.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonPresentacionesVannair.pdf; sourceTree = "<group>"; };
 		AA3090AD14948BC7008C4C86 /* AVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3090B114948BC7008C4C86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA3090B314948BC7008C4C86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -336,12 +362,25 @@
 			children = (
 				AAA3EEA914956A4500DFFE8A /* RAEstudioPlato.PDF */,
 				AAA3EEA714956A3A00DFFE8A /* AVBrilinta.pdf */,
-				177959FA1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 */,
-				177959FB1495CF06006AE693 /* VideoCorazon.mp4 */,
 				1765ADA61495D1AF002D8036 /* FlatAZMexico_H264.mp4 */,
 				AAA3EEAB14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf */,
+				AA1B63DB149880000077DE91 /* TarjetonPresentacionesRhinocort.pdf */,
+				AA1B63F1149880780077DE91 /* TarjetonAtlas.pdf */,
+				AA1B63F2149880780077DE91 /* TarjetonPrecios.pdf */,
+				AA1B63F3149880780077DE91 /* TarjetonPresentacionesVannair.pdf */,
+				AA1B63DD1498800E0077DE91 /* TarjetonAtlasiPad(Respiratorio).pdf */,
+				AA1B63DE1498800E0077DE91 /* TarjetonPrecios(VannairSimbicort).pdf */,
+				AA1B63DF1498800E0077DE91 /* TarjetonpresentacionesSymbicort.pdf */,
+				AA1B63E01498800E0077DE91 /* TarjetonSymbicortInstitucionales.pdf */,
 				AAA3EEAC14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf */,
+				AA1B63E51498803B0077DE91 /* Budesonida.mp4 */,
+				AA1B63EB1498805A0077DE91 /* Mecanismocorticoides.mp4 */,
+				AA1B63EC1498805A0077DE91 /* mecanismoSymbicort.mp4 */,
+				AA1B63EF149880620077DE91 /* Rutacorticoides.mp4 */,
+				AA1B63E91498804E0077DE91 /* corticoidesinhalados.mp4 */,
+				AA1B63D914987FF70077DE91 /* TarjetonPresentacionesPulmicort.pdf */,
 				1765ADA21495D00F002D8036 /* RAEstructuraPromocionalSeguridadEficacia.pdf */,
+				AA1B63E7149880440077DE91 /* B2agonista.mp4 */,
 				1765ADA31495D00F002D8036 /* RAEstudioSeguridadEficacia.pdf */,
 				1765ADA01495CFE3002D8036 /* AVOnglyza.pdf */,
 				1765ADB01495D2D4002D8036 /* AVTarjetonAtacand.pdf */,
@@ -451,8 +490,6 @@
 				AAA3EEAA14956A4500DFFE8A /* RAEstudioPlato.PDF in Resources */,
 				AAA3EEAD14956A8500DFFE8A /* AVOEtarjetonATORVASTATINA.pdf in Resources */,
 				AAA3EEAE14956A8500DFFE8A /* AVOEtarjetonesCOMBINACION.pdf in Resources */,
-				177959FC1495CF06006AE693 /* TicagrelorMecanismodeAccion.mp4 in Resources */,
-				177959FD1495CF06006AE693 /* VideoCorazon.mp4 in Resources */,
 				1765ADA11495CFE3002D8036 /* AVOnglyza.pdf in Resources */,
 				1765ADA41495D00F002D8036 /* RAEstructuraPromocionalSeguridadEficacia.pdf in Resources */,
 				1765ADA51495D00F002D8036 /* RAEstudioSeguridadEficacia.pdf in Resources */,
@@ -460,6 +497,21 @@
 				1765ADB11495D2D4002D8036 /* AVTarjetonAtacand.pdf in Resources */,
 				1765ADB31495D2DB002D8036 /* AVNexium2_5.pdf in Resources */,
 				AA87DFD81496C7280027BAD3 /* Icon.png in Resources */,
+				AA1B63DA14987FF70077DE91 /* TarjetonPresentacionesPulmicort.pdf in Resources */,
+				AA1B63DC149880000077DE91 /* TarjetonPresentacionesRhinocort.pdf in Resources */,
+				AA1B63E11498800E0077DE91 /* TarjetonAtlasiPad(Respiratorio).pdf in Resources */,
+				AA1B63E21498800E0077DE91 /* TarjetonPrecios(VannairSimbicort).pdf in Resources */,
+				AA1B63E31498800E0077DE91 /* TarjetonpresentacionesSymbicort.pdf in Resources */,
+				AA1B63E41498800E0077DE91 /* TarjetonSymbicortInstitucionales.pdf in Resources */,
+				AA1B63E61498803B0077DE91 /* Budesonida.mp4 in Resources */,
+				AA1B63E8149880440077DE91 /* B2agonista.mp4 in Resources */,
+				AA1B63EA1498804E0077DE91 /* corticoidesinhalados.mp4 in Resources */,
+				AA1B63ED1498805A0077DE91 /* Mecanismocorticoides.mp4 in Resources */,
+				AA1B63EE1498805A0077DE91 /* mecanismoSymbicort.mp4 in Resources */,
+				AA1B63F0149880620077DE91 /* Rutacorticoides.mp4 in Resources */,
+				AA1B63F4149880780077DE91 /* TarjetonAtlas.pdf in Resources */,
+				AA1B63F5149880780077DE91 /* TarjetonPrecios.pdf in Resources */,
+				AA1B63F6149880780077DE91 /* TarjetonPresentacionesVannair.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

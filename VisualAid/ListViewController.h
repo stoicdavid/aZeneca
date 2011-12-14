@@ -10,7 +10,7 @@
 #import "ResourceManager.h"
 
 #define pdf     @"pdf"
-#define video   @"mp4"
+#define video   @"m4v"
 
 @interface ListViewController : UIViewController
 {
