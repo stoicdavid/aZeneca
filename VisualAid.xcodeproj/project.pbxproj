@@ -11,6 +11,7 @@
 		17FF58AD149588DC0056C21F /* ResourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FF58AC149588DC0056C21F /* ResourceView.m */; };
 		AA038D22149495CC00667A09 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA038D20149495CC00667A09 /* ListViewController.m */; };
 		AA038D23149495CC00667A09 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA038D21149495CC00667A09 /* ListViewController.xib */; };
+		AA1B642E14988BEB0077DE91 /* RATarjetonNexiumMups.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA1B642D14988BEB0077DE91 /* RATarjetonNexiumMups.pdf */; };
 		AA3090B214948BC7008C4C86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3090B114948BC7008C4C86 /* UIKit.framework */; };
 		AA3090B414948BC7008C4C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3090B314948BC7008C4C86 /* Foundation.framework */; };
 		AA3090B614948BC7008C4C86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3090B514948BC7008C4C86 /* CoreGraphics.framework */; };
@@ -74,7 +75,6 @@
 		AA7AE8B31496126100134A89 /* AVNexiumMups.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8B21496126100134A89 /* AVNexiumMups.pdf */; };
 		AA7AE8B81496126C00134A89 /* RADipticoRIMA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8B41496126C00134A89 /* RADipticoRIMA.pdf */; };
 		AA7AE8B91496126C00134A89 /* RATarjetonAtlasparaiPad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8B51496126C00134A89 /* RATarjetonAtlasparaiPad.pdf */; };
-		AA7AE8BA1496126C00134A89 /* RATarjetonNexiumMupsInstitucionales.PDF in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8B61496126C00134A89 /* RATarjetonNexiumMupsInstitucionales.PDF */; };
 		AA7AE8BB1496126C00134A89 /* RATripticoRIMA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8B71496126C00134A89 /* RATripticoRIMA.pdf */; };
 		AA7AE8BD1496127600134A89 /* TarjetonPresentacionesPulmicort.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8BC1496127600134A89 /* TarjetonPresentacionesPulmicort.pdf */; };
 		AA7AE8BF1496127D00134A89 /* TarjetonPresentacionesRhinocort.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AE8BE1496127D00134A89 /* TarjetonPresentacionesRhinocort.pdf */; };
@@ -129,6 +129,7 @@
 		AA038D1F149495CC00667A09 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		AA038D20149495CC00667A09 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		AA038D21149495CC00667A09 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		AA1B642D14988BEB0077DE91 /* RATarjetonNexiumMups.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RATarjetonNexiumMups.pdf; sourceTree = "<group>"; };
 		AA3090AD14948BC7008C4C86 /* AVI Institucionales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVI Institucionales.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3090B114948BC7008C4C86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA3090B314948BC7008C4C86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -197,7 +198,6 @@
 		AA7AE8B21496126100134A89 /* AVNexiumMups.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AVNexiumMups.pdf; sourceTree = "<group>"; };
 		AA7AE8B41496126C00134A89 /* RADipticoRIMA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RADipticoRIMA.pdf; sourceTree = "<group>"; };
 		AA7AE8B51496126C00134A89 /* RATarjetonAtlasparaiPad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RATarjetonAtlasparaiPad.pdf; sourceTree = "<group>"; };
-		AA7AE8B61496126C00134A89 /* RATarjetonNexiumMupsInstitucionales.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RATarjetonNexiumMupsInstitucionales.PDF; sourceTree = "<group>"; };
 		AA7AE8B71496126C00134A89 /* RATripticoRIMA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RATripticoRIMA.pdf; sourceTree = "<group>"; };
 		AA7AE8BC1496127600134A89 /* TarjetonPresentacionesPulmicort.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonPresentacionesPulmicort.pdf; sourceTree = "<group>"; };
 		AA7AE8BE1496127D00134A89 /* TarjetonPresentacionesRhinocort.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TarjetonPresentacionesRhinocort.pdf; sourceTree = "<group>"; };
@@ -452,10 +452,10 @@
 				AA7AE8C11496128500134A89 /* TarjetonPrecios(VannairSimbicort).pdf */,
 				AA7AE8EA1496179100134A89 /* FlatAZMexico_02.mp4 */,
 				AA7AE8EB1496179100134A89 /* FlatAZMexico_H264.mp4 */,
+				AA1B642D14988BEB0077DE91 /* RATarjetonNexiumMups.pdf */,
 				AA7AE8EE1496179800134A89 /* LluviaRoja60Logo.mp4 */,
 				AA7AE8C21496128500134A89 /* TarjetonpresentacionesSymbicort.pdf */,
 				AA7AE8C31496128500134A89 /* TarjetonSymbicortInstitucionales.pdf */,
-				AA7AE8B61496126C00134A89 /* RATarjetonNexiumMupsInstitucionales.PDF */,
 				AA7AE8F6149617B100134A89 /* TicagrelorMecanismodeAccion.mp4 */,
 				AA7AE8F7149617B100134A89 /* VideoCorazon.mp4 */,
 				AA7AE8B71496126C00134A89 /* RATripticoRIMA.pdf */,
@@ -584,7 +584,6 @@
 				AA7AE8B31496126100134A89 /* AVNexiumMups.pdf in Resources */,
 				AA7AE8B81496126C00134A89 /* RADipticoRIMA.pdf in Resources */,
 				AA7AE8B91496126C00134A89 /* RATarjetonAtlasparaiPad.pdf in Resources */,
-				AA7AE8BA1496126C00134A89 /* RATarjetonNexiumMupsInstitucionales.PDF in Resources */,
 				AA7AE8BB1496126C00134A89 /* RATripticoRIMA.pdf in Resources */,
 				AA7AE8BD1496127600134A89 /* TarjetonPresentacionesPulmicort.pdf in Resources */,
 				AA7AE8BF1496127D00134A89 /* TarjetonPresentacionesRhinocort.pdf in Resources */,
@@ -624,6 +623,7 @@
 				AA9E7F1E1496BDC700AA868C /* TarjetonSELOKENSELOPRES.pdf in Resources */,
 				AA9E7F201496BFFF00AA868C /* Icon.png in Resources */,
 				AA9E7F221496C1D800AA868C /* CampanaTV.pdf in Resources */,
+				AA1B642E14988BEB0077DE91 /* RATarjetonNexiumMups.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
